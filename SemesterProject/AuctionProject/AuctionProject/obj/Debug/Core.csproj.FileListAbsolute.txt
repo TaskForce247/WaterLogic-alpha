@@ -1,0 +1,9 @@
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\AuctionProject\bin\Debug\AuctionProject.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\AuctionProject\bin\Debug\AuctionProject.pdb
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\AuctionProject\bin\Debug\EntityFramework.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\AuctionProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\AuctionProject\bin\Debug\EntityFramework.xml
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\AuctionProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\AuctionProject\obj\Debug\Core.csprojResolveAssemblyReference.cache
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\AuctionProject\obj\Debug\AuctionProject.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\AuctionProject\obj\Debug\AuctionProject.pdb

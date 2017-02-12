@@ -1,0 +1,20 @@
+System.InvalidOperationException: Member 'CurrentValues' cannot be called for the entity of type 'Category' because the entity does not exist in the context. To add an entity to the context call the Add or Attach method of DbSet<Category>.
+   at System.Data.Entity.Internal.InternalEntityEntry.ValidateNotDetachedAndInitializeRelatedEnd(String method)
+   at System.Data.Entity.Internal.InternalEntityEntry.ValidateStateToGetValues(String method, EntityState invalidState)
+   at System.Data.Entity.Internal.InternalEntityEntry.get_CurrentValues()
+   at System.Data.Entity.Infrastructure.DbEntityEntry`1.get_CurrentValues()
+   at Database.ARepository`1.Update(T entity) in C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\Database\ARepository.cs:line 74
+   at BussinessLayer.AController`1.Update(T entity) in C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\BussinessLayer\AController.cs:line 63
+   at WcfServiceLibraryAuction.AuctionProjectService.UpdateCategory(Category Category) in C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\AuctionProjectService.cs:line 327
+   at SyncInvokeUpdateCategory(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)

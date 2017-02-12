@@ -1,0 +1,14 @@
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\BussinessLayer\bin\Release\BussinessLayer.dll.config
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\BussinessLayer\bin\Release\BussinessLayer.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\BussinessLayer\bin\Release\BussinessLayer.pdb
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\BussinessLayer\bin\Release\AuctionProject.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\BussinessLayer\bin\Release\Database.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\BussinessLayer\bin\Release\EntityFramework.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\BussinessLayer\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\BussinessLayer\bin\Release\AuctionProject.pdb
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\BussinessLayer\bin\Release\Database.pdb
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\BussinessLayer\bin\Release\EntityFramework.xml
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\BussinessLayer\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\BussinessLayer\obj\Release\BussinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\BussinessLayer\obj\Release\BussinessLayer.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\BussinessLayer\obj\Release\BussinessLayer.pdb

@@ -1,0 +1,16 @@
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\WcfServiceLibraryAuction.exe.config
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\WcfServiceLibraryAuction.exe
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\WcfServiceLibraryAuction.pdb
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\AuctionProject.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\BussinessLayer.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\EntityFramework.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\Database.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\AuctionProject.pdb
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\BussinessLayer.pdb
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\EntityFramework.xml
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\Database.pdb
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\obj\Debug\WcfServiceLibraryAuction.csprojResolveAssemblyReference.cache
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\obj\Debug\WcfServiceLibraryAuction.exe
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\obj\Debug\WcfServiceLibraryAuction.pdb

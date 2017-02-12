@@ -1,0 +1,14 @@
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\ConsoleApplication1\bin\Debug\BussinessLayer.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\ConsoleApplication1\bin\Debug\Database.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\ConsoleApplication1\bin\Debug\EntityFramework.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\ConsoleApplication1\bin\Debug\BussinessLayer.pdb
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\ConsoleApplication1\bin\Debug\Database.pdb
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\ConsoleApplication1\bin\Debug\EntityFramework.xml
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

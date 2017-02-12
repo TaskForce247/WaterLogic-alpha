@@ -1,0 +1,16 @@
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\TestConsoleApp\bin\Release\TestConsoleApp.exe.config
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\TestConsoleApp\bin\Release\TestConsoleApp.exe
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\TestConsoleApp\bin\Release\TestConsoleApp.pdb
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\TestConsoleApp\bin\Release\AuctionProject.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\TestConsoleApp\bin\Release\BussinessLayer.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\TestConsoleApp\bin\Release\Database.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\TestConsoleApp\bin\Release\EntityFramework.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\TestConsoleApp\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\TestConsoleApp\bin\Release\AuctionProject.pdb
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\TestConsoleApp\bin\Release\BussinessLayer.pdb
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\TestConsoleApp\bin\Release\Database.pdb
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\TestConsoleApp\bin\Release\EntityFramework.xml
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\TestConsoleApp\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\TestConsoleApp\obj\Release\TestConsoleApp.csprojResolveAssemblyReference.cache
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\TestConsoleApp\obj\Release\TestConsoleApp.exe
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\TestConsoleApp\obj\Release\TestConsoleApp.pdb

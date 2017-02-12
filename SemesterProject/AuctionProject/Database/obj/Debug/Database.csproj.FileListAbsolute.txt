@@ -1,0 +1,14 @@
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\Database\bin\Debug\Database.dll.config
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\Database\bin\Debug\Database.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\Database\bin\Debug\Database.pdb
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\Database\bin\Debug\AuctionProject.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\Database\bin\Debug\EntityFramework.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\Database\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\Database\bin\Debug\AuctionProject.pdb
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\Database\bin\Debug\EntityFramework.xml
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\Database\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\Database\obj\Debug\Database.csprojResolveAssemblyReference.cache
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\Database\obj\Debug\Database.Migrations.Enitial.resources
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\Database\obj\Debug\Database.csproj.GenerateResource.Cache
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\Database\obj\Debug\Database.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\Database\obj\Debug\Database.pdb

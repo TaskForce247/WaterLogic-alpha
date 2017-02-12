@@ -1,0 +1,14 @@
+System.ServiceModel.Security.MessageSecurityException: No signature message parts were specified for messages with the '' action.
+   at System.ServiceModel.Security.MessageSecurityProtocolFactory.ExtractMessageParts(String action, ScopedMessagePartSpecification scopedParts, Boolean isForSignature)
+   at System.ServiceModel.Security.MessageSecurityProtocolFactory.GetOutgoingSignatureParts(String action)
+   at System.ServiceModel.Security.MessageSecurityProtocol.ConfigureSendSecurityHeader(Message message, String actor, IList`1 supportingTokens, SecurityProtocolCorrelationState correlationState)
+   at System.ServiceModel.Security.AcceptorSessionSymmetricMessageSecurityProtocol.SetUpDelayedSecurityExecution(Message& message, SecurityToken signingToken, SecurityToken encryptionToken, SecurityTokenParameters tokenParameters, SecurityProtocolCorrelationState correlationState)
+   at System.ServiceModel.Security.AcceptorSessionSymmetricMessageSecurityProtocol.SecureOutgoingMessageCore(Message& message, TimeSpan timeout, SecurityProtocolCorrelationState correlationState)
+   at System.ServiceModel.Security.MessageSecurityProtocol.SecureOutgoingMessage(Message& message, TimeSpan timeout, SecurityProtocolCorrelationState correlationState)
+   at System.ServiceModel.Security.SecuritySessionServerSettings.ServerSecuritySessionChannel.SecureApplicationMessage(Message& message, TimeSpan timeout, SecurityProtocolCorrelationState correlationState)
+   at System.ServiceModel.Security.SecuritySessionServerSettings.SecuritySessionRequestContext.OnReply(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestContextBase.Reply(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestContextBase.Reply(Message message)
+   at System.ServiceModel.Dispatcher.ChannelHandler.ProvideFaultAndReplyFailure(RequestContext request, Exception exception, ErrorHandlerFaultInfo& faultInfo, Boolean& replied, Boolean& replySentAsync)
+System.ServiceModel.FaultException: The message with To 'http://localhost:8733/Design_Time_Addresses/WcfServiceLibraryAuction/AuctionProjectService/BidService' cannot be processed at the receiver, due to an AddressFilter mismatch at the EndpointDispatcher.  Check that the sender and receiver's EndpointAddresses agree.
+   at System.ServiceModel.Dispatcher.ErrorBehavior.ThrowAndCatch(Exception e, Message message)

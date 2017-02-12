@@ -1,0 +1,16 @@
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Release\WcfServiceLibraryAuction.exe.config
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Release\WcfServiceLibraryAuction.exe
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Release\WcfServiceLibraryAuction.pdb
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Release\AuctionProject.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Release\BussinessLayer.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Release\EntityFramework.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Release\Database.dll
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Release\AuctionProject.pdb
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Release\BussinessLayer.pdb
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Release\EntityFramework.xml
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Release\Database.pdb
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\obj\Release\WcfServiceLibraryAuction.csprojResolveAssemblyReference.cache
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\obj\Release\WcfServiceLibraryAuction.exe
+C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\obj\Release\WcfServiceLibraryAuction.pdb
