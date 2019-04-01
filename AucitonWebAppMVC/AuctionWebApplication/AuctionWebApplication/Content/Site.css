@@ -34,9 +34,9 @@ select,
 textarea {
     max-width: 280px;
 }
-div.navbar-fixed-top{
-    background-color: #e8ca20;
-    position:relative;
+div.navbar-fixed-top {
+    background-color: #002f6c;
+    position: relative;
     top: 10px;
     left: 22px;
     width: 1490px;
@@ -95,13 +95,13 @@ div.searchBar{
 }
 /*footer*/
 .footer {
-    background-color: rgba(47, 28, 28, 1.00);
+    background-color: rgba(1, 87, 155, 1);
     position:relative;
     bottom: 0;
     width: 1840px;
     right: 380px;
     height: 100px;
-    float:left;
+    float: left;
 }
 .footer ul li{
     display: inline;

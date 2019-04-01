@@ -41,13 +41,13 @@ namespace Core
         public string Lname { get; set; }
         public string Address { get; set; }
         public string PhoneNumber { get; set; }
-        public double? Balance { get; set; }
+  
         public string  Salt  { get; set; }
 
 
         public override string ToString()
         {
-            return " Id : " + Id + " UserName : " + UserName + " Password : " + Password + " Email : " + Email + " Fname : " + Fname + " Lname : " + Lname + " Addres : " + Address + " PhoneNumber : " + PhoneNumber + " Balance : " + Balance + " Salt : " + Salt;
+            return " Id : " + Id + " UserName : " + UserName + " Password : " + Password + " Email : " + Email + " Fname : " + Fname + " Lname : " + Lname + " Addres : " + Address + " PhoneNumber : " + PhoneNumber + " Salt : " + Salt;
         }
         public override int GetHashCode()
         {
@@ -60,7 +60,7 @@ namespace Core
             hash = hash * 13 + Lname.GetHashCode();
             hash = hash * 13 + Address.GetHashCode();
             hash = hash * 13 + PhoneNumber.GetHashCode();
-            hash = hash * 13 + Balance.GetHashCode();
+            
             hash = hash * 13 + Salt.GetHashCode();
             return hash;
         }
@@ -86,7 +86,7 @@ namespace Core
                     Lname == var.Lname &&
                     Address == var.Address &&
                     PhoneNumber == var.PhoneNumber &&
-                    Balance == var.Balance &&
+                  
                     Salt == var.Salt;
         }
     }

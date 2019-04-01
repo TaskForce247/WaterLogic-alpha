@@ -16,7 +16,7 @@ namespace AuctionProject
 {
     public partial class RegistrationForm : Form
     {
-       IAuctionProjectService service = new AuctionProjectServiceClient("binary");  
+       IProjectService service = new ProjectServiceClient("binary");  
         
         public RegistrationForm()
         {
@@ -57,7 +57,7 @@ namespace AuctionProject
                     Account account = new Account { Email = EmailBox.Text,
                     Fname = FnameBox.Text, Lname = LnameBox.Text,
                     Address = AddressBox.Text, PhoneNumber = PhoneBox.Text,
-                    Password = PasswordBox.Text, Balance = 0 };
+                    Password = PasswordBox.Text,  };
                 account.UserName = account.Email;
                 account = HashAndSaltPassword(account);
                 service.AddAccount(account);

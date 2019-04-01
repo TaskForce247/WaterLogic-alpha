@@ -7,3 +7,14 @@ C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\AuctionProje
 C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\AuctionProject\obj\Debug\Core.csprojResolveAssemblyReference.cache
 C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\AuctionProject\obj\Debug\AuctionProject.dll
 C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\AuctionProject\obj\Debug\AuctionProject.pdb
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\AuctionProject\bin\Debug\AuctionProject.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\AuctionProject\bin\Debug\AuctionProject.pdb
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\AuctionProject\bin\Debug\EntityFramework.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\AuctionProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\AuctionProject\bin\Debug\EntityFramework.xml
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\AuctionProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\AuctionProject\obj\Debug\Core.csproj.CoreCompileInputs.cache
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\AuctionProject\obj\Debug\Core.csproj.CopyComplete
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\AuctionProject\obj\Debug\AuctionProject.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\AuctionProject\obj\Debug\AuctionProject.pdb
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\AuctionProject\obj\Debug\Core.csprojAssemblyReference.cache

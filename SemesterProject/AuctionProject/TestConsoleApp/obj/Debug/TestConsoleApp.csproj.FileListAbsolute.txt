@@ -14,3 +14,23 @@ C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\TestConsoleA
 C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\TestConsoleApp\obj\Debug\TestConsoleApp.exe
 C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\TestConsoleApp\obj\Debug\TestConsoleApp.pdb
 C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\TestConsoleApp\bin\Debug\AuctionProject.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\TestConsoleApp\bin\Debug\TestConsoleApp.exe.config
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\TestConsoleApp\bin\Debug\TestConsoleApp.exe
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\TestConsoleApp\bin\Debug\TestConsoleApp.pdb
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\TestConsoleApp\bin\Debug\AuctionProject.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\TestConsoleApp\bin\Debug\BussinessLayer.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\TestConsoleApp\bin\Debug\Database.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\TestConsoleApp\bin\Debug\EntityFramework.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\TestConsoleApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\TestConsoleApp\bin\Debug\AuctionProject.pdb
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\TestConsoleApp\bin\Debug\BussinessLayer.pdb
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\TestConsoleApp\bin\Debug\BussinessLayer.dll.config
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\TestConsoleApp\bin\Debug\Database.pdb
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\TestConsoleApp\bin\Debug\Database.dll.config
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\TestConsoleApp\bin\Debug\EntityFramework.xml
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\TestConsoleApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\TestConsoleApp\obj\Debug\TestConsoleApp.csprojAssemblyReference.cache
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\TestConsoleApp\obj\Debug\TestConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\TestConsoleApp\obj\Debug\TestConsoleApp.csproj.CopyComplete
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\TestConsoleApp\obj\Debug\TestConsoleApp.exe
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\TestConsoleApp\obj\Debug\TestConsoleApp.pdb

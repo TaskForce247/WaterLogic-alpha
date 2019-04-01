@@ -1,10 +1,10 @@
-﻿@model AuctionWebApplication.AuctionService.Product
+﻿@model WebApplication.Service.Product
 
 @{
     ViewBag.Title = "Create";
 }
 <br />
-<h2>Place your item</h2>
+<h2>Create</h2>
 
 <br />
 <br />
@@ -14,8 +14,8 @@
 
                 <div class="form-horizontal">
                     <nav class="navbar navbar-default">
-        <h4>Item information</h4>
-        <hr />
+                        <h4>Item information</h4>
+                        <hr />
                         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
 
                         <div class="form-group">
@@ -41,6 +41,13 @@
                             </div>
                         </div>
                         <div class="form-group">
+                            @Html.LabelFor(model => model.Stock, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Stock, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Stock, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
                             @Html.LabelFor(model => model.Category, "Category", htmlAttributes: new { @class = "control-label col-md-2" })
 
                             <div class="col-md-10">
@@ -49,19 +56,15 @@
                                 @Html.ValidationMessageFor(model => model.CategoryId, "", new { @class = "text-danger" })
                             </div>
                         </div>
-                        @*<div class="form-group">
-                            @Html.LabelFor(model => model.Picture, htmlAttributes: new { @class = "control-label col-md-2" })
-                            <div class="col-md-10">                               
-                              </div>
-                        </div>*@
+                      
 
                         <div class="form-group">
                             <div class="col-md-offset-2 col-md-10">
-                                <input type="submit" value="Click to upload picture" />
-                                @*<input type="submit" value="Create" class="btn btn-default" />*@
+                                <input type="submit" value="Create" />
+                               
                             </div>
                         </div>
-                        </nav>
+                    </nav>
 </div>
 }
 

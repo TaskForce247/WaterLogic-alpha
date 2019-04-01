@@ -1,0 +1,5 @@
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\b\SemesterProject\AuctionProject\AuctionProject\bin\Debug\AuctionProject.dll
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\Core\Debug\Core.csprojAssemblyReference.cache
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\Core\Debug\Core.csproj.CoreCompileInputs.cache
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\Core\Debug\Core.csproj.CopyComplete
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\Core\Debug\AuctionProject.dll

@@ -1,0 +1,8 @@
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\0\b\SemesterProject\AuctionProject\Database\bin\Debug\Database.dll.config
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\0\b\SemesterProject\AuctionProject\Database\bin\Debug\Database.dll
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\0\i\Database\Debug\Database.csprojAssemblyReference.cache
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\0\i\Database\Debug\Database.Migrations.Enitial.resources
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\0\i\Database\Debug\Database.csproj.GenerateResource.cache
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\0\i\Database\Debug\Database.csproj.CoreCompileInputs.cache
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\0\i\Database\Debug\Database.csproj.CopyComplete
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\0\i\Database\Debug\Database.dll

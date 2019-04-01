@@ -1,4 +1,4 @@
-﻿@model IEnumerable<AuctionWebApplication.AuctionService.Product>
+﻿@model IEnumerable<WebApplication.Service.Product>
 
 @{
     ViewBag.Title = "Products";
@@ -8,14 +8,14 @@
 <br />
 <br />
 <p>
-    <span class="label label-default">@Html.ActionLink("Sell your product", "Create")</span>
+    <span class="label label-default">@Html.ActionLink("CreateProduct", "Create")</span>
 </p>
 <nav class="navbar navbar-default">
     <table class="table">
         <tr>
             @*<th>
-                    @Html.DisplayNameFor(model => model.CategoryId)
-                </th>*@
+            @Html.DisplayNameFor(model => model.CategoryId)
+        </th>*@
             <th>
                 @Html.DisplayNameFor(model => model.Name)
             </th>
@@ -28,33 +28,39 @@
             <th>
                 @Html.DisplayNameFor(model => model.Price)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Stock)
+            </th>
             <th></th>
         </tr>
 
         @foreach (var item in Model)
         {
-            <tr>
-                @*<td>
-                        @Html.DisplayFor(modelItem => item.CategoryId)
-                    </td>*@
-                <td>
-                    @Html.DisplayFor(modelItem => item.Name)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Description)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Picture)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Price)
-                </td>
-                <td>
-                    @*@Html.ActionLink("Edit", "Edit", new { id=item.Id }) |*@
-                    <span class="label label-primary">@Html.ActionLink("Details", "Details", new { CategoryId = item.Id })</span>
-                    @*@Html.ActionLink("Delete", "Delete", new { id=item.Id })*@
-</td>
-            </tr>
+        <tr>
+            @*<td>
+            @Html.DisplayFor(modelItem => item.CategoryId)
+        </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Picture)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <th>
+                @Html.DisplayFor(modelItem => item.Stock)
+            </th>
+            <td>
+                <span class="label label-primary">@Html.ActionLink("Edit", "Edit", new { id = item.Id }) </span>
+                <span class="label label-primary">@Html.ActionLink("Details", "Details", new { item.Id })</span>
+                <span class="label label-primary">@Html.ActionLink("Delete", "Delete", new { id = item.Id }) </span>
+            </td>
+        </tr>
         }
 
     </table>

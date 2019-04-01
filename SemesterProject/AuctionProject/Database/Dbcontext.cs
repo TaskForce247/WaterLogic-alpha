@@ -17,18 +17,14 @@ namespace Database
                 MigrateDatabaseToLatestVersion<Dbcontext, Configuration>());
         }
 
-        public virtual DbSet<Account> Accounts { get; set; }
-        public virtual DbSet<Auction> Auctions { get; set; }
-        public virtual DbSet<Bid> Bids { get; set; }
+        public virtual DbSet<Account> Accounts { get; set; } //allows method to be overwritten
+
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<Category> Categories { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Auction>()
-            .HasRequired(p => p.Product)
-            .WithMany()
-            .WillCascadeOnDelete(true);
+          
         }
     }
 }

@@ -60,8 +60,6 @@
   <ItemGroup>
     <Compile Include="AccountController.cs" />
     <Compile Include="AController.cs" />
-    <Compile Include="AuctionController.cs" />
-    <Compile Include="BidController.cs" />
     <Compile Include="CategoryController.cs" />
     <Compile Include="ProductControler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

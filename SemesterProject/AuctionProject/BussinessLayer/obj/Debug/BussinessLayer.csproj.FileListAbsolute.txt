@@ -12,3 +12,20 @@ C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\BussinessLay
 C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\BussinessLayer\obj\Debug\BussinessLayer.csprojResolveAssemblyReference.cache
 C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\BussinessLayer\obj\Debug\BussinessLayer.dll
 C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\BussinessLayer\obj\Debug\BussinessLayer.pdb
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\BussinessLayer\bin\Debug\BussinessLayer.dll.config
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\BussinessLayer\bin\Debug\BussinessLayer.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\BussinessLayer\bin\Debug\BussinessLayer.pdb
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\BussinessLayer\bin\Debug\AuctionProject.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\BussinessLayer\bin\Debug\Database.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\BussinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\BussinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\BussinessLayer\bin\Debug\AuctionProject.pdb
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\BussinessLayer\bin\Debug\Database.pdb
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\BussinessLayer\bin\Debug\Database.dll.config
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\BussinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\BussinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\BussinessLayer\obj\Debug\BussinessLayer.csprojAssemblyReference.cache
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\BussinessLayer\obj\Debug\BussinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\BussinessLayer\obj\Debug\BussinessLayer.csproj.CopyComplete
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\BussinessLayer\obj\Debug\BussinessLayer.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\BussinessLayer\obj\Debug\BussinessLayer.pdb

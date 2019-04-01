@@ -41,7 +41,17 @@ namespace BussinessLayer
         {
             return hash == ComputeHash(salt, password);
         }
-
+        public Account HashAndSaltPassword(Account acc)
+        {
+            // salt made with random values
+            byte[] saltBytes = new byte[32];
+            using (var provider = new RNGCryptoServiceProvider())
+                provider.GetNonZeroBytes(saltBytes);
+            acc.Salt = Convert.ToBase64String(saltBytes);
+            // Make Rfc2898DeriveBytes
+            acc.Password = ComputeHash(acc.Salt, acc.Password);
+            return acc;
+        }
         static string ComputeHash(string salt, string password)
         {
             var saltBytes = Convert.FromBase64String(salt);
@@ -50,17 +60,7 @@ namespace BussinessLayer
         }
 
         
-        public Account HashAndSaltPassword(Account acc)
-        {
-            // creates salt with random vales
-            byte[] saltBytes = new byte[32];
-            using (var provider = new RNGCryptoServiceProvider())
-                    provider.GetNonZeroBytes(saltBytes);
-            acc.Salt = Convert.ToBase64String(saltBytes);
-            // Create the Rfc2898DeriveBytes and get the hash value
-            acc.Password = ComputeHash(acc.Salt, acc.Password);
-            return acc;
-        }
+      
 
         public Account GetAccountByEmail(string email)
         {

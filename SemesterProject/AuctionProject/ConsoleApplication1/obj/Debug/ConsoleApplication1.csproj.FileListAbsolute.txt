@@ -12,3 +12,23 @@ C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\ConsoleAppli
 C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
 C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\ConsoleApplication1\bin\Debug\BussinessLayer.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\ConsoleApplication1\bin\Debug\Database.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\ConsoleApplication1\bin\Debug\EntityFramework.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\ConsoleApplication1\bin\Debug\BussinessLayer.pdb
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\ConsoleApplication1\bin\Debug\BussinessLayer.dll.config
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\ConsoleApplication1\bin\Debug\Database.pdb
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\ConsoleApplication1\bin\Debug\Database.dll.config
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\ConsoleApplication1\bin\Debug\EntityFramework.xml
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojAssemblyReference.cache
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.CoreCompileInputs.cache
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.CopyComplete
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.CodeAnalysisLog.xml
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.lastcodeanalysissucceeded

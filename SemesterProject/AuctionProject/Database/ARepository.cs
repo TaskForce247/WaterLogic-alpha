@@ -31,7 +31,7 @@ namespace Database
 
         public abstract T getByIdWithObjects(int Id);
 
-        public virtual int Save()
+        public virtual int Save() //allows overwrite method
         {
               return context.SaveChanges();
         }

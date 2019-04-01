@@ -14,12 +14,13 @@ namespace Core
         public Product()
         {       
         }
-        public Product(string name,string description,double price,int categoryId)
+        public Product(string name,string description,double price,int categoryId, double stock)
         {
             Name = name;
             Description = description;
             Price = price;
             CategoryId = categoryId;
+            Stock = stock;
         }
         public int Id { get; set; }
 
@@ -28,6 +29,10 @@ namespace Core
         public string Description { get; set; }
 
         public double Price { get; set; }
+        public double Stock { get; set; }
+
+        [Timestamp]
+        public byte[] RowVersion { get; set; }
 
         public string Picture { get; set; }
 
@@ -37,7 +42,7 @@ namespace Core
         public Category Category { get; set; }
         public override string ToString()
         {
-            return " Id : " + Id + " Name : " + Name + " Description : " + Description + " Price : " + Price + " Picture : " + Picture + " CategoryId : " + CategoryId;
+            return " Id : " + Id + " Name : " + Name + " Description : " + Description + " Price : " + Price + " Picture : " + Picture + " CategoryId : " + CategoryId + "Stock:" + Stock;
         }
         public override int GetHashCode()
         {
@@ -46,7 +51,8 @@ namespace Core
             hash = hash * 13 + Name.GetHashCode();
             hash = hash * 13 + Description.GetHashCode();
             hash = hash * 13 + Price.GetHashCode();
-         //   hash = hash * 13 + Picture.GetHashCode();
+            hash = hash * 13 + Stock.GetHashCode();
+            //   hash = hash * 13 + Picture.GetHashCode();
             hash = hash * 13 + CategoryId.GetHashCode();
             return hash;
         }
@@ -69,7 +75,8 @@ namespace Core
                     Description == var.Description &&
                     Price == var.Price &&
                 //    Picture == var.Picture &&
-                    CategoryId == var.CategoryId;
+                    CategoryId == var.CategoryId &&
+            Stock == var.Stock;
         }
     }
 }

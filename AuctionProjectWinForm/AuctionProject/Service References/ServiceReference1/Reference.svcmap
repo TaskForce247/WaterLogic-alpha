@@ -19,15 +19,15 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/WcfServiceLibraryAuction/AuctionProjectService/" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/WcfServiceLibrary/ProjectService/" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="9fd63b5a-a1a1-492b-89d6-cbeeb025395c" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WcfServiceLibraryAuction/AuctionProjectService/?xsd=xsd1" />
-    <MetadataFile FileName="item3.xsd" MetadataType="Schema" ID="282424d8-185e-4d40-b4ae-cf1e0170e7c4" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WcfServiceLibraryAuction/AuctionProjectService/?xsd=xsd3" />
-    <MetadataFile FileName="AuctionProjectService.wsdl" MetadataType="Wsdl" ID="f6d4036c-f031-4024-af92-44f815c6d93e" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WcfServiceLibraryAuction/AuctionProjectService/?wsdl" />
-    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="35416ac9-9c7d-400b-a5c7-e4f717433cac" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WcfServiceLibraryAuction/AuctionProjectService/?xsd=xsd0" />
-    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="f5cdccad-5dff-4957-b015-23175644ab01" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WcfServiceLibraryAuction/AuctionProjectService/?disco" />
-    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="693a00bb-0e00-48da-aa7d-ad6f167353bc" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WcfServiceLibraryAuction/AuctionProjectService/?xsd=xsd2" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="21e879c0-d28f-4eda-aadd-66ac87a6b634" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WcfServiceLibrary/ProjectService/?xsd=xsd0" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="34cfbaf7-a965-4c91-b934-7f64cc19e159" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WcfServiceLibrary/ProjectService/?xsd=xsd3" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="48085b24-2e5f-43cb-9d21-bd253e1fa1f5" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WcfServiceLibrary/ProjectService/?disco" />
+    <MetadataFile FileName="ProjectService1.wsdl" MetadataType="Wsdl" ID="efb0403b-ea07-4122-9406-618dc265180a" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WcfServiceLibrary/ProjectService/?wsdl" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="2000485f-af4d-466a-82b0-5f5983439fe9" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WcfServiceLibrary/ProjectService/?xsd=xsd2" />
+    <MetadataFile FileName="item3.xsd" MetadataType="Schema" ID="10028a78-2db0-4e75-8dbf-726b89c090e5" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WcfServiceLibrary/ProjectService/?xsd=xsd1" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

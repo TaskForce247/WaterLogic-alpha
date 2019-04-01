@@ -9,15 +9,14 @@ using System.ServiceModel.Dispatcher;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WcfServiceLibraryAuction
+namespace WcfServiceLibrary
 {
     public class GlobalErrorBehaviorAttribute : Attribute, IServiceBehavior
     {
         private readonly Type errorHandlerType;
 
         /// <summary>
-        /// Dependency injection to dynamically inject error handler 
-        /// if we have multiple global error handlers
+
         /// </summary>
         /// <param name="errorHandlerType"></param>
         public GlobalErrorBehaviorAttribute(Type errorHandlerType)

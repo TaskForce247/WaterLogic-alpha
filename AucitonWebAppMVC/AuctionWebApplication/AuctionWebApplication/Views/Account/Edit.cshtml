@@ -1,4 +1,4 @@
-﻿@model AuctionWebApplication.AuctionService.Account
+﻿@model WebApplication.Service.Account
 
 @{
     ViewBag.Title = "Edit";
@@ -69,13 +69,11 @@
 
 <div>
      @{ 
-          var acc = (AuctionWebApplication.AuctionService.Account) Session["LoggedUser"];
+          var acc = (WebApplication.Service.Account) Session["LoggedUser"];
          var id = acc.Id;
      }
     <span class="label label-default">@Html.ActionLink("Delete profile", "Delete")</span> 
-    <span class="label label-default">@Html.ActionLink("Auctions where you have a bid", "AllAuctionsForAcc", new { accountId = id }, null)</span>
-    <span class="label label-default">@Html.ActionLink("Products you are selling", "AllAuctionsWhereSeller", new { accountId = id }, null)</span>
-    <span class="label label-default">@Html.ActionLink("Auctions you have won", "AllAuctionsWon", new { accountId = id }, null)</span>
+  
 
 </div>
 

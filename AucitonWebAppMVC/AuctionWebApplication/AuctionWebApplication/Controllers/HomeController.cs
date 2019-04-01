@@ -1,16 +1,16 @@
-﻿using AuctionWebApplication.AuctionService;
+﻿using WebApplication.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace AuctionWebApplication.Controllers
+namespace WebApplication.Controllers
 {
     public class HomeController : Controller
     {
 
-        IAuctionProjectService AccService = new AuctionProjectServiceClient("secure");
+        IProjectService AccService = new ProjectServiceClient("secure");
         public ActionResult Index(string Search)
         {
             if(string.IsNullOrEmpty(Search))
@@ -20,12 +20,10 @@ namespace AuctionWebApplication.Controllers
             var products = AccService.GetProductsWithName(Search);
             if (products != null)
             {
-                var auctions = AccService.getAllAucionsForProducts(products);
-                if (auctions != null)
-                {
-                    Session["Auctions"] = auctions;
-                    return RedirectToAction("List","Auction");
-                }
+               
+               
+                    return RedirectToAction("Index","Product");
+                
             }
             return View();
         }

@@ -1,0 +1,6 @@
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\b\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\WcfServiceLibraryAuction.exe.config
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\b\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\WcfServiceLibraryAuction.exe
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\WcfServiceLibraryAuction\Debug\WcfServiceLibraryAuction.csprojAssemblyReference.cache
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\WcfServiceLibraryAuction\Debug\WcfServiceLibraryAuction.csproj.CoreCompileInputs.cache
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\WcfServiceLibraryAuction\Debug\WcfServiceLibraryAuction.csproj.CopyComplete
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\WcfServiceLibraryAuction\Debug\WcfServiceLibraryAuction.exe

@@ -1,4 +1,4 @@
-﻿@model AuctionWebApplication.AuctionService.Account
+﻿@model WebApplication.Service.Account
 
 @{
     ViewBag.Title = "Details";
@@ -60,9 +60,7 @@
         </dl>
     </nav>
         <div>
-            <span class="label label-default">@Html.ActionLink("Auctions where there is a bid", "AllAuctionsForAcc", new { accountId = Model.Id }, null)</span>
-            <span class="label label-default">@Html.ActionLink("Products selling", "AllAuctionsWhereSeller", new { accountId = Model.Id }, null)</span>
-            <span class="label label-default">@Html.ActionLink("Auctions won", "AllAuctionsWon", new { accountId = Model.Id }, null)</span>
+
         </div>
     </div>
 <br />

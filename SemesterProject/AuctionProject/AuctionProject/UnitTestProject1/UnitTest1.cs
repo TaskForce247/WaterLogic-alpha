@@ -14,8 +14,7 @@ namespace UnitTestProject1
         private AccountRepository Arepository; //= new AccountRepository(context);
         private ProductRepository Prepository;//= new ProductRepository(context);
         private CategoryRepository Crepository; //= new CategoryRepository(context);
-        BidRepository BidRepository;// = new BidRepository(context);
-        AuctionRepository AuctionRepository;//= new AuctionRepository(context);
+      
         AccountController accController;
         const int expectedResult = 1;
         public UnitTest1()
@@ -24,8 +23,7 @@ namespace UnitTestProject1
         Arepository = new AccountRepository(context);
         Prepository = new ProductRepository(context);
         Crepository = new CategoryRepository(context);
-        BidRepository = new BidRepository(context);
-        AuctionRepository = new AuctionRepository(context);
+       
         accController = new AccountController();
     }
         
@@ -55,44 +53,7 @@ namespace UnitTestProject1
             return acc;
         }
 
-        Auction CreateTestAuction()
-        {
-            return new Auction
-            {
-                CurrentHighestBid = 100,
-                CurrentOwnerName = "Delyan",
-                EndTime = DateTime.Now,
-                StartTime = DateTime.Now.Add(TimeSpan.FromDays(1)),
-            };
-        }
-
-        Auction CreateAndAddTestAuction()
-        {
-            var acc = CreateTestAuction();
-            AuctionRepository.Add(acc);
-            return acc;
-        }
-        
-        public Product CreateAndAddTestProduct()
-        {
-            var pr = CreateTestProduct();
-            Prepository.Add(pr);
-            return pr;
-        }
-
-        Bid CreateTestBid()
-        {
-            var auc = CreateAndAddTestAuction();
-            return new Bid { BidTime = DateTime.Now, Price = 200, };
-        }
-
-        Bid CreateAndAddTestBid()
-        {
-            var bid = CreateTestBid();
-            BidRepository.Add(bid);
-            return bid;
-        }
-        #endregion
+       
 
         #region ProductTestDatabase
 
@@ -276,80 +237,9 @@ namespace UnitTestProject1
 
         #endregion
 
-        #region AuctionTestDatabase
-        [TestMethod]
-        public void AddAuction()
-        {
-            var auction = CreateTestAuction();
-            int ActualResult = AuctionRepository.Add(auction);
-            Assert.IsTrue(expectedResult == ActualResult);
-            AuctionRepository.Remove(auction);
-        }
-        [TestMethod]
-        public void UpdateAuction()
-        {
-            var auction = CreateAndAddTestAuction();
-            var testAuction = AuctionRepository.GetById(auction.Id);
-            testAuction.CurrentOwnerName = "DELYAN";
-            AuctionRepository.Update(testAuction);
-            var savedAuction = AuctionRepository.GetById(testAuction.Id);
-            Assert.AreEqual(savedAuction, testAuction);
-            AuctionRepository.Remove(savedAuction);
-        }
-        [TestMethod]
-        public void RemoveAuction()
-        {
-            var auction = CreateAndAddTestAuction();
-            int actualResult = AuctionRepository.Remove(auction);
-            Assert.IsTrue(actualResult == expectedResult);
-        }
-        [TestMethod]
-        public void GetAuctionById()
-        {
-            var auction = CreateAndAddTestAuction();
-            var testAuction = AuctionRepository.GetById(auction.Id);
-            Assert.AreEqual(auction, testAuction);
-            AuctionRepository.Remove(testAuction);
-        }
+      
 
-        #endregion
-
-        #region BidTestDatabase
-
-        [TestMethod]
-        public void AddBid()
-        {
-            var bid = CreateAndAddTestBid();
-            int actualResult = BidRepository.Add(bid);
-            Assert.IsTrue(actualResult == expectedResult);
-            BidRepository.Remove(bid);
-        }
-        [TestMethod]
-        public void GetBidById()
-        {
-            var bid = CreateAndAddTestBid();
-            var savedBid = BidRepository.GetById(bid.Id);
-            Assert.AreEqual(bid, savedBid);
-            BidRepository.Remove(bid);
-        }
-        [TestMethod]
-        public void UpdateBid()
-        {
-            var bid = CreateAndAddTestBid();
-            var savedBid = BidRepository.GetById(bid.Id);
-            savedBid.Price = 300;
-            BidRepository.Update(savedBid);
-            var testBid = BidRepository.GetById(savedBid.Id);
-            Assert.AreEqual(testBid, savedBid);
-            BidRepository.Remove(bid);
-        }
-        [TestMethod]
-        public void RemoveBid()
-        {
-            var bid = CreateAndAddTestBid();
-            int actualResult = BidRepository.Remove(bid);
-            Assert.IsTrue(actualResult == expectedResult);
-        }
+      
         #endregion
     }
 

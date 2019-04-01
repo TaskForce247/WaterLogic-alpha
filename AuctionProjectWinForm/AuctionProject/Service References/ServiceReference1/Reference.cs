@@ -26,9 +26,6 @@ namespace AuctionProject.ServiceReference1 {
         private string AddressField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<double> BalanceField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string EmailField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
@@ -71,19 +68,6 @@ namespace AuctionProject.ServiceReference1 {
                 if ((object.ReferenceEquals(this.AddressField, value) != true)) {
                     this.AddressField = value;
                     this.RaisePropertyChanged("Address");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<double> Balance {
-            get {
-                return this.BalanceField;
-            }
-            set {
-                if ((this.BalanceField.Equals(value) != true)) {
-                    this.BalanceField = value;
-                    this.RaisePropertyChanged("Balance");
                 }
             }
         }
@@ -204,42 +188,21 @@ namespace AuctionProject.ServiceReference1 {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="Auction", Namespace="http://schemas.datacontract.org/2004/07/Core")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Category", Namespace="http://schemas.datacontract.org/2004/07/Core")]
     [System.SerializableAttribute()]
-    public partial class Auction : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+    public partial class Category : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
         [System.NonSerializedAttribute()]
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private bool ActiveField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private AuctionProject.ServiceReference1.Bid[] BidsField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private double CurrentHighestBidField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string CurrentOwnerNameField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.DateTime EndTimeField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private int IdField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private AuctionProject.ServiceReference1.Product ProductField;
+        private string NameField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private AuctionProject.ServiceReference1.Account SellerField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.DateTime StartTimeField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private AuctionProject.ServiceReference1.Account WinnerField;
+        private AuctionProject.ServiceReference1.Product[] ProductsField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -248,71 +211,6 @@ namespace AuctionProject.ServiceReference1 {
             }
             set {
                 this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public bool Active {
-            get {
-                return this.ActiveField;
-            }
-            set {
-                if ((this.ActiveField.Equals(value) != true)) {
-                    this.ActiveField = value;
-                    this.RaisePropertyChanged("Active");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public AuctionProject.ServiceReference1.Bid[] Bids {
-            get {
-                return this.BidsField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.BidsField, value) != true)) {
-                    this.BidsField = value;
-                    this.RaisePropertyChanged("Bids");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public double CurrentHighestBid {
-            get {
-                return this.CurrentHighestBidField;
-            }
-            set {
-                if ((this.CurrentHighestBidField.Equals(value) != true)) {
-                    this.CurrentHighestBidField = value;
-                    this.RaisePropertyChanged("CurrentHighestBid");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string CurrentOwnerName {
-            get {
-                return this.CurrentOwnerNameField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.CurrentOwnerNameField, value) != true)) {
-                    this.CurrentOwnerNameField = value;
-                    this.RaisePropertyChanged("CurrentOwnerName");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.DateTime EndTime {
-            get {
-                return this.EndTimeField;
-            }
-            set {
-                if ((this.EndTimeField.Equals(value) != true)) {
-                    this.EndTimeField = value;
-                    this.RaisePropertyChanged("EndTime");
-                }
             }
         }
         
@@ -330,53 +228,27 @@ namespace AuctionProject.ServiceReference1 {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public AuctionProject.ServiceReference1.Product Product {
+        public string Name {
             get {
-                return this.ProductField;
+                return this.NameField;
             }
             set {
-                if ((object.ReferenceEquals(this.ProductField, value) != true)) {
-                    this.ProductField = value;
-                    this.RaisePropertyChanged("Product");
+                if ((object.ReferenceEquals(this.NameField, value) != true)) {
+                    this.NameField = value;
+                    this.RaisePropertyChanged("Name");
                 }
             }
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public AuctionProject.ServiceReference1.Account Seller {
+        public AuctionProject.ServiceReference1.Product[] Products {
             get {
-                return this.SellerField;
+                return this.ProductsField;
             }
             set {
-                if ((object.ReferenceEquals(this.SellerField, value) != true)) {
-                    this.SellerField = value;
-                    this.RaisePropertyChanged("Seller");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.DateTime StartTime {
-            get {
-                return this.StartTimeField;
-            }
-            set {
-                if ((this.StartTimeField.Equals(value) != true)) {
-                    this.StartTimeField = value;
-                    this.RaisePropertyChanged("StartTime");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public AuctionProject.ServiceReference1.Account Winner {
-            get {
-                return this.WinnerField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.WinnerField, value) != true)) {
-                    this.WinnerField = value;
-                    this.RaisePropertyChanged("Winner");
+                if ((object.ReferenceEquals(this.ProductsField, value) != true)) {
+                    this.ProductsField = value;
+                    this.RaisePropertyChanged("Products");
                 }
             }
         }
@@ -420,6 +292,12 @@ namespace AuctionProject.ServiceReference1 {
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private double PriceField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private byte[] RowVersionField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private double StockField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -522,220 +400,28 @@ namespace AuctionProject.ServiceReference1 {
             }
         }
         
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="Bid", Namespace="http://schemas.datacontract.org/2004/07/Core", IsReference=true)]
-    [System.SerializableAttribute()]
-    public partial class Bid : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private AuctionProject.ServiceReference1.Auction AuctionField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int AuctionIdField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private AuctionProject.ServiceReference1.Account BidOwnerField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int BidOwnerIdField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.DateTime BidTimeField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int IdField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private double PriceField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public AuctionProject.ServiceReference1.Auction Auction {
+        public byte[] RowVersion {
             get {
-                return this.AuctionField;
+                return this.RowVersionField;
             }
             set {
-                if ((object.ReferenceEquals(this.AuctionField, value) != true)) {
-                    this.AuctionField = value;
-                    this.RaisePropertyChanged("Auction");
+                if ((object.ReferenceEquals(this.RowVersionField, value) != true)) {
+                    this.RowVersionField = value;
+                    this.RaisePropertyChanged("RowVersion");
                 }
             }
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public int AuctionId {
+        public double Stock {
             get {
-                return this.AuctionIdField;
+                return this.StockField;
             }
             set {
-                if ((this.AuctionIdField.Equals(value) != true)) {
-                    this.AuctionIdField = value;
-                    this.RaisePropertyChanged("AuctionId");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public AuctionProject.ServiceReference1.Account BidOwner {
-            get {
-                return this.BidOwnerField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.BidOwnerField, value) != true)) {
-                    this.BidOwnerField = value;
-                    this.RaisePropertyChanged("BidOwner");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int BidOwnerId {
-            get {
-                return this.BidOwnerIdField;
-            }
-            set {
-                if ((this.BidOwnerIdField.Equals(value) != true)) {
-                    this.BidOwnerIdField = value;
-                    this.RaisePropertyChanged("BidOwnerId");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.DateTime BidTime {
-            get {
-                return this.BidTimeField;
-            }
-            set {
-                if ((this.BidTimeField.Equals(value) != true)) {
-                    this.BidTimeField = value;
-                    this.RaisePropertyChanged("BidTime");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int Id {
-            get {
-                return this.IdField;
-            }
-            set {
-                if ((this.IdField.Equals(value) != true)) {
-                    this.IdField = value;
-                    this.RaisePropertyChanged("Id");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public double Price {
-            get {
-                return this.PriceField;
-            }
-            set {
-                if ((this.PriceField.Equals(value) != true)) {
-                    this.PriceField = value;
-                    this.RaisePropertyChanged("Price");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="Category", Namespace="http://schemas.datacontract.org/2004/07/Core")]
-    [System.SerializableAttribute()]
-    public partial class Category : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int IdField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string NameField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private AuctionProject.ServiceReference1.Product[] ProductsField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int Id {
-            get {
-                return this.IdField;
-            }
-            set {
-                if ((this.IdField.Equals(value) != true)) {
-                    this.IdField = value;
-                    this.RaisePropertyChanged("Id");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Name {
-            get {
-                return this.NameField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.NameField, value) != true)) {
-                    this.NameField = value;
-                    this.RaisePropertyChanged("Name");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public AuctionProject.ServiceReference1.Product[] Products {
-            get {
-                return this.ProductsField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.ProductsField, value) != true)) {
-                    this.ProductsField = value;
-                    this.RaisePropertyChanged("Products");
+                if ((this.StockField.Equals(value) != true)) {
+                    this.StockField = value;
+                    this.RaisePropertyChanged("Stock");
                 }
             }
         }
@@ -751,424 +437,232 @@ namespace AuctionProject.ServiceReference1 {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference1.IAuctionProjectService")]
-    public interface IAuctionProjectService {
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference1.IProjectService")]
+    public interface IProjectService {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/LogError", ReplyAction="http://tempuri.org/IAuctionProjectService/LogErrorResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/LogError", ReplyAction="http://tempuri.org/IProjectService/LogErrorResponse")]
         void LogError(System.Exception e);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/LogError", ReplyAction="http://tempuri.org/IAuctionProjectService/LogErrorResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/LogError", ReplyAction="http://tempuri.org/IProjectService/LogErrorResponse")]
         System.Threading.Tasks.Task LogErrorAsync(System.Exception e);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAccountById", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAccountByIdResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetAccountById", ReplyAction="http://tempuri.org/IProjectService/GetAccountByIdResponse")]
         AuctionProject.ServiceReference1.Account GetAccountById(int Id);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAccountById", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAccountByIdResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetAccountById", ReplyAction="http://tempuri.org/IProjectService/GetAccountByIdResponse")]
         System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Account> GetAccountByIdAsync(int Id);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/HashAndSaltPassword", ReplyAction="http://tempuri.org/IAuctionProjectService/HashAndSaltPasswordResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/HashAndSaltPassword", ReplyAction="http://tempuri.org/IProjectService/HashAndSaltPasswordResponse")]
         AuctionProject.ServiceReference1.Account HashAndSaltPassword(AuctionProject.ServiceReference1.Account acc);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/HashAndSaltPassword", ReplyAction="http://tempuri.org/IAuctionProjectService/HashAndSaltPasswordResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/HashAndSaltPassword", ReplyAction="http://tempuri.org/IProjectService/HashAndSaltPasswordResponse")]
         System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Account> HashAndSaltPasswordAsync(AuctionProject.ServiceReference1.Account acc);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/Login", ReplyAction="http://tempuri.org/IAuctionProjectService/LoginResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/Login", ReplyAction="http://tempuri.org/IProjectService/LoginResponse")]
         bool Login(AuctionProject.ServiceReference1.Account acc, string password);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/Login", ReplyAction="http://tempuri.org/IAuctionProjectService/LoginResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/Login", ReplyAction="http://tempuri.org/IProjectService/LoginResponse")]
         System.Threading.Tasks.Task<bool> LoginAsync(AuctionProject.ServiceReference1.Account acc, string password);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/AddAccount", ReplyAction="http://tempuri.org/IAuctionProjectService/AddAccountResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/AddAccount", ReplyAction="http://tempuri.org/IProjectService/AddAccountResponse")]
         int AddAccount(AuctionProject.ServiceReference1.Account Account);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/AddAccount", ReplyAction="http://tempuri.org/IAuctionProjectService/AddAccountResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/AddAccount", ReplyAction="http://tempuri.org/IProjectService/AddAccountResponse")]
         System.Threading.Tasks.Task<int> AddAccountAsync(AuctionProject.ServiceReference1.Account Account);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAllAccounts", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAllAccountsResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetAllAccounts", ReplyAction="http://tempuri.org/IProjectService/GetAllAccountsResponse")]
         AuctionProject.ServiceReference1.Account[] GetAllAccounts();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAllAccounts", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAllAccountsResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetAllAccounts", ReplyAction="http://tempuri.org/IProjectService/GetAllAccountsResponse")]
         System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Account[]> GetAllAccountsAsync();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/RemoveAccount", ReplyAction="http://tempuri.org/IAuctionProjectService/RemoveAccountResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/RemoveAccount", ReplyAction="http://tempuri.org/IProjectService/RemoveAccountResponse")]
         void RemoveAccount(AuctionProject.ServiceReference1.Account Account);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/RemoveAccount", ReplyAction="http://tempuri.org/IAuctionProjectService/RemoveAccountResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/RemoveAccount", ReplyAction="http://tempuri.org/IProjectService/RemoveAccountResponse")]
         System.Threading.Tasks.Task RemoveAccountAsync(AuctionProject.ServiceReference1.Account Account);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/RemoveAccountById", ReplyAction="http://tempuri.org/IAuctionProjectService/RemoveAccountByIdResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/RemoveAccountById", ReplyAction="http://tempuri.org/IProjectService/RemoveAccountByIdResponse")]
         int RemoveAccountById(int Id);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/RemoveAccountById", ReplyAction="http://tempuri.org/IAuctionProjectService/RemoveAccountByIdResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/RemoveAccountById", ReplyAction="http://tempuri.org/IProjectService/RemoveAccountByIdResponse")]
         System.Threading.Tasks.Task<int> RemoveAccountByIdAsync(int Id);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/UpdateAccount", ReplyAction="http://tempuri.org/IAuctionProjectService/UpdateAccountResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/UpdateAccount", ReplyAction="http://tempuri.org/IProjectService/UpdateAccountResponse")]
         int UpdateAccount(AuctionProject.ServiceReference1.Account Account);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/UpdateAccount", ReplyAction="http://tempuri.org/IAuctionProjectService/UpdateAccountResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/UpdateAccount", ReplyAction="http://tempuri.org/IProjectService/UpdateAccountResponse")]
         System.Threading.Tasks.Task<int> UpdateAccountAsync(AuctionProject.ServiceReference1.Account Account);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAccountByUsername", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAccountByUsernameResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetAccountByUsername", ReplyAction="http://tempuri.org/IProjectService/GetAccountByUsernameResponse")]
         AuctionProject.ServiceReference1.Account GetAccountByUsername(string username);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAccountByUsername", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAccountByUsernameResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetAccountByUsername", ReplyAction="http://tempuri.org/IProjectService/GetAccountByUsernameResponse")]
         System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Account> GetAccountByUsernameAsync(string username);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAccountByEmail", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAccountByEmailResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetAccountByEmail", ReplyAction="http://tempuri.org/IProjectService/GetAccountByEmailResponse")]
         AuctionProject.ServiceReference1.Account GetAccountByEmail(string email);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAccountByEmail", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAccountByEmailResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetAccountByEmail", ReplyAction="http://tempuri.org/IProjectService/GetAccountByEmailResponse")]
         System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Account> GetAccountByEmailAsync(string email);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAccountWithObjects", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAccountWithObjectsResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetAccountWithObjects", ReplyAction="http://tempuri.org/IProjectService/GetAccountWithObjectsResponse")]
         AuctionProject.ServiceReference1.Account GetAccountWithObjects(int Id);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAccountWithObjects", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAccountWithObjectsResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetAccountWithObjects", ReplyAction="http://tempuri.org/IProjectService/GetAccountWithObjectsResponse")]
         System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Account> GetAccountWithObjectsAsync(int Id);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAuctionById", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAuctionByIdResponse")]
-        AuctionProject.ServiceReference1.Auction GetAuctionById(int Id);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAuctionById", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAuctionByIdResponse")]
-        System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Auction> GetAuctionByIdAsync(int Id);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/AddAuction", ReplyAction="http://tempuri.org/IAuctionProjectService/AddAuctionResponse")]
-        int AddAuction(AuctionProject.ServiceReference1.Auction Auction);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/AddAuction", ReplyAction="http://tempuri.org/IAuctionProjectService/AddAuctionResponse")]
-        System.Threading.Tasks.Task<int> AddAuctionAsync(AuctionProject.ServiceReference1.Auction Auction);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAllAuctions", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAllAuctionsResponse")]
-        AuctionProject.ServiceReference1.Auction[] GetAllAuctions();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAllAuctions", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAllAuctionsResponse")]
-        System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Auction[]> GetAllAuctionsAsync();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAllAuctionsWithObjects", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAllAuctionsWithObjectsResponse")]
-        AuctionProject.ServiceReference1.Auction[] GetAllAuctionsWithObjects();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAllAuctionsWithObjects", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAllAuctionsWithObjectsResponse")]
-        System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Auction[]> GetAllAuctionsWithObjectsAsync();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAllActiveAuctions", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAllActiveAuctionsResponse")]
-        AuctionProject.ServiceReference1.Auction[] GetAllActiveAuctions();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAllActiveAuctions", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAllActiveAuctionsResponse")]
-        System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Auction[]> GetAllActiveAuctionsAsync();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAllAuctionsAsyncable", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAllAuctionsAsyncableResponse")]
-        AuctionProject.ServiceReference1.Auction[] GetAllAuctionsAsyncable();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAllAuctionsAsyncable", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAllAuctionsAsyncableResponse")]
-        System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Auction[]> GetAllAuctionsAsyncableAsync();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/RemoveAuction", ReplyAction="http://tempuri.org/IAuctionProjectService/RemoveAuctionResponse")]
-        void RemoveAuction(AuctionProject.ServiceReference1.Auction Auction);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/RemoveAuction", ReplyAction="http://tempuri.org/IAuctionProjectService/RemoveAuctionResponse")]
-        System.Threading.Tasks.Task RemoveAuctionAsync(AuctionProject.ServiceReference1.Auction Auction);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/RemoveAuctionById", ReplyAction="http://tempuri.org/IAuctionProjectService/RemoveAuctionByIdResponse")]
-        int RemoveAuctionById(int Id);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/RemoveAuctionById", ReplyAction="http://tempuri.org/IAuctionProjectService/RemoveAuctionByIdResponse")]
-        System.Threading.Tasks.Task<int> RemoveAuctionByIdAsync(int Id);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/CheckIfActive", ReplyAction="http://tempuri.org/IAuctionProjectService/CheckIfActiveResponse")]
-        bool CheckIfActive(int Id);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/CheckIfActive", ReplyAction="http://tempuri.org/IAuctionProjectService/CheckIfActiveResponse")]
-        System.Threading.Tasks.Task<bool> CheckIfActiveAsync(int Id);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/UpdateAuction", ReplyAction="http://tempuri.org/IAuctionProjectService/UpdateAuctionResponse")]
-        int UpdateAuction(AuctionProject.ServiceReference1.Auction Auction);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/UpdateAuction", ReplyAction="http://tempuri.org/IAuctionProjectService/UpdateAuctionResponse")]
-        System.Threading.Tasks.Task<int> UpdateAuctionAsync(AuctionProject.ServiceReference1.Auction Auction);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAuctionWithProductId", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAuctionWithProductIdResponse")]
-        AuctionProject.ServiceReference1.Auction GetAuctionWithProductId(int productId);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAuctionWithProductId", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAuctionWithProductIdResponse")]
-        System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Auction> GetAuctionWithProductIdAsync(int productId);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/getAllAucionsForProducts", ReplyAction="http://tempuri.org/IAuctionProjectService/getAllAucionsForProductsResponse")]
-        AuctionProject.ServiceReference1.Auction[] getAllAucionsForProducts(AuctionProject.ServiceReference1.Product[] products);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/getAllAucionsForProducts", ReplyAction="http://tempuri.org/IAuctionProjectService/getAllAucionsForProductsResponse")]
-        System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Auction[]> getAllAucionsForProductsAsync(AuctionProject.ServiceReference1.Product[] products);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAuctionsWhereSellerId", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAuctionsWhereSellerIdResponse")]
-        AuctionProject.ServiceReference1.Auction[] GetAuctionsWhereSellerId(int sellerId);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAuctionsWhereSellerId", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAuctionsWhereSellerIdResponse")]
-        System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Auction[]> GetAuctionsWhereSellerIdAsync(int sellerId);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAuctionsWhereWinnerId", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAuctionsWhereWinnerIdResponse")]
-        AuctionProject.ServiceReference1.Auction[] GetAuctionsWhereWinnerId(int winnerId);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAuctionsWhereWinnerId", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAuctionsWhereWinnerIdResponse")]
-        System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Auction[]> GetAuctionsWhereWinnerIdAsync(int winnerId);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAuctionsWithLessTimeLeft", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAuctionsWithLessTimeLeftResponse")]
-        AuctionProject.ServiceReference1.Auction[] GetAuctionsWithLessTimeLeft();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAuctionsWithLessTimeLeft", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAuctionsWithLessTimeLeftResponse")]
-        System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Auction[]> GetAuctionsWithLessTimeLeftAsync();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetMostRecentAuctions", ReplyAction="http://tempuri.org/IAuctionProjectService/GetMostRecentAuctionsResponse")]
-        AuctionProject.ServiceReference1.Auction[] GetMostRecentAuctions();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetMostRecentAuctions", ReplyAction="http://tempuri.org/IAuctionProjectService/GetMostRecentAuctionsResponse")]
-        System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Auction[]> GetMostRecentAuctionsAsync();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAuctionByIdWithObjects", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAuctionByIdWithObjectsResponse")]
-        AuctionProject.ServiceReference1.Auction GetAuctionByIdWithObjects(int Id);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAuctionByIdWithObjects", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAuctionByIdWithObjectsResponse")]
-        System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Auction> GetAuctionByIdWithObjectsAsync(int Id);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetCategorytById", ReplyAction="http://tempuri.org/IAuctionProjectService/GetCategorytByIdResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetCategorytById", ReplyAction="http://tempuri.org/IProjectService/GetCategorytByIdResponse")]
         AuctionProject.ServiceReference1.Category GetCategorytById(int Id);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetCategorytById", ReplyAction="http://tempuri.org/IAuctionProjectService/GetCategorytByIdResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetCategorytById", ReplyAction="http://tempuri.org/IProjectService/GetCategorytByIdResponse")]
         System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Category> GetCategorytByIdAsync(int Id);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/AddCategory", ReplyAction="http://tempuri.org/IAuctionProjectService/AddCategoryResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/AddCategory", ReplyAction="http://tempuri.org/IProjectService/AddCategoryResponse")]
         int AddCategory(AuctionProject.ServiceReference1.Category Category);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/AddCategory", ReplyAction="http://tempuri.org/IAuctionProjectService/AddCategoryResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/AddCategory", ReplyAction="http://tempuri.org/IProjectService/AddCategoryResponse")]
         System.Threading.Tasks.Task<int> AddCategoryAsync(AuctionProject.ServiceReference1.Category Category);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAllCategories", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAllCategoriesResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetAllCategories", ReplyAction="http://tempuri.org/IProjectService/GetAllCategoriesResponse")]
         AuctionProject.ServiceReference1.Category[] GetAllCategories();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAllCategories", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAllCategoriesResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetAllCategories", ReplyAction="http://tempuri.org/IProjectService/GetAllCategoriesResponse")]
         System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Category[]> GetAllCategoriesAsync();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/RemoveCategory", ReplyAction="http://tempuri.org/IAuctionProjectService/RemoveCategoryResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/RemoveCategory", ReplyAction="http://tempuri.org/IProjectService/RemoveCategoryResponse")]
         void RemoveCategory(AuctionProject.ServiceReference1.Category Category);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/RemoveCategory", ReplyAction="http://tempuri.org/IAuctionProjectService/RemoveCategoryResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/RemoveCategory", ReplyAction="http://tempuri.org/IProjectService/RemoveCategoryResponse")]
         System.Threading.Tasks.Task RemoveCategoryAsync(AuctionProject.ServiceReference1.Category Category);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/RemoveCategoryById", ReplyAction="http://tempuri.org/IAuctionProjectService/RemoveCategoryByIdResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/RemoveCategoryById", ReplyAction="http://tempuri.org/IProjectService/RemoveCategoryByIdResponse")]
         int RemoveCategoryById(int Id);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/RemoveCategoryById", ReplyAction="http://tempuri.org/IAuctionProjectService/RemoveCategoryByIdResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/RemoveCategoryById", ReplyAction="http://tempuri.org/IProjectService/RemoveCategoryByIdResponse")]
         System.Threading.Tasks.Task<int> RemoveCategoryByIdAsync(int Id);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/UpdateCategory", ReplyAction="http://tempuri.org/IAuctionProjectService/UpdateCategoryResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/UpdateCategory", ReplyAction="http://tempuri.org/IProjectService/UpdateCategoryResponse")]
         int UpdateCategory(AuctionProject.ServiceReference1.Category Category);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/UpdateCategory", ReplyAction="http://tempuri.org/IAuctionProjectService/UpdateCategoryResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/UpdateCategory", ReplyAction="http://tempuri.org/IProjectService/UpdateCategoryResponse")]
         System.Threading.Tasks.Task<int> UpdateCategoryAsync(AuctionProject.ServiceReference1.Category Category);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetCategoryByName", ReplyAction="http://tempuri.org/IAuctionProjectService/GetCategoryByNameResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetCategoryByName", ReplyAction="http://tempuri.org/IProjectService/GetCategoryByNameResponse")]
         AuctionProject.ServiceReference1.Category GetCategoryByName(string name);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetCategoryByName", ReplyAction="http://tempuri.org/IAuctionProjectService/GetCategoryByNameResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetCategoryByName", ReplyAction="http://tempuri.org/IProjectService/GetCategoryByNameResponse")]
         System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Category> GetCategoryByNameAsync(string name);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/RemoveCategoryByName", ReplyAction="http://tempuri.org/IAuctionProjectService/RemoveCategoryByNameResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/RemoveCategoryByName", ReplyAction="http://tempuri.org/IProjectService/RemoveCategoryByNameResponse")]
         int RemoveCategoryByName(string name);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/RemoveCategoryByName", ReplyAction="http://tempuri.org/IAuctionProjectService/RemoveCategoryByNameResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/RemoveCategoryByName", ReplyAction="http://tempuri.org/IProjectService/RemoveCategoryByNameResponse")]
         System.Threading.Tasks.Task<int> RemoveCategoryByNameAsync(string name);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetCategoryWithObjects", ReplyAction="http://tempuri.org/IAuctionProjectService/GetCategoryWithObjectsResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetCategoryWithObjects", ReplyAction="http://tempuri.org/IProjectService/GetCategoryWithObjectsResponse")]
         AuctionProject.ServiceReference1.Category GetCategoryWithObjects(int Id);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetCategoryWithObjects", ReplyAction="http://tempuri.org/IAuctionProjectService/GetCategoryWithObjectsResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetCategoryWithObjects", ReplyAction="http://tempuri.org/IProjectService/GetCategoryWithObjectsResponse")]
         System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Category> GetCategoryWithObjectsAsync(int Id);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetBidById", ReplyAction="http://tempuri.org/IAuctionProjectService/GetBidByIdResponse")]
-        AuctionProject.ServiceReference1.Bid GetBidById(int Id);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetBidById", ReplyAction="http://tempuri.org/IAuctionProjectService/GetBidByIdResponse")]
-        System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Bid> GetBidByIdAsync(int Id);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/CreateBid", ReplyAction="http://tempuri.org/IAuctionProjectService/CreateBidResponse")]
-        AuctionProject.ServiceReference1.Bid CreateBid(double price, AuctionProject.ServiceReference1.Account bidOwner, int auctionId);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/CreateBid", ReplyAction="http://tempuri.org/IAuctionProjectService/CreateBidResponse")]
-        System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Bid> CreateBidAsync(double price, AuctionProject.ServiceReference1.Account bidOwner, int auctionId);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/AddBid", ReplyAction="http://tempuri.org/IAuctionProjectService/AddBidResponse")]
-        int AddBid(AuctionProject.ServiceReference1.Bid Bid);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/AddBid", ReplyAction="http://tempuri.org/IAuctionProjectService/AddBidResponse")]
-        System.Threading.Tasks.Task<int> AddBidAsync(AuctionProject.ServiceReference1.Bid Bid);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAllBids", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAllBidsResponse")]
-        AuctionProject.ServiceReference1.Bid[] GetAllBids();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAllBids", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAllBidsResponse")]
-        System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Bid[]> GetAllBidsAsync();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAllAuctionsForBids", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAllAuctionsForBidsResponse")]
-        AuctionProject.ServiceReference1.Auction[] GetAllAuctionsForBids(AuctionProject.ServiceReference1.Bid[] bids);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAllAuctionsForBids", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAllAuctionsForBidsResponse")]
-        System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Auction[]> GetAllAuctionsForBidsAsync(AuctionProject.ServiceReference1.Bid[] bids);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/RemoveBid", ReplyAction="http://tempuri.org/IAuctionProjectService/RemoveBidResponse")]
-        void RemoveBid(AuctionProject.ServiceReference1.Bid Bid);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/RemoveBid", ReplyAction="http://tempuri.org/IAuctionProjectService/RemoveBidResponse")]
-        System.Threading.Tasks.Task RemoveBidAsync(AuctionProject.ServiceReference1.Bid Bid);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/RemoveBidById", ReplyAction="http://tempuri.org/IAuctionProjectService/RemoveBidByIdResponse")]
-        int RemoveBidById(int Id);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/RemoveBidById", ReplyAction="http://tempuri.org/IAuctionProjectService/RemoveBidByIdResponse")]
-        System.Threading.Tasks.Task<int> RemoveBidByIdAsync(int Id);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/UpdateBid", ReplyAction="http://tempuri.org/IAuctionProjectService/UpdateBidResponse")]
-        int UpdateBid(AuctionProject.ServiceReference1.Bid Bid);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/UpdateBid", ReplyAction="http://tempuri.org/IAuctionProjectService/UpdateBidResponse")]
-        System.Threading.Tasks.Task<int> UpdateBidAsync(AuctionProject.ServiceReference1.Bid Bid);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAllBidsByAccountId", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAllBidsByAccountIdResponse")]
-        AuctionProject.ServiceReference1.Bid[] GetAllBidsByAccountId(int accountId);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAllBidsByAccountId", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAllBidsByAccountIdResponse")]
-        System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Bid[]> GetAllBidsByAccountIdAsync(int accountId);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAllBidsByAuctionId", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAllBidsByAuctionIdResponse")]
-        AuctionProject.ServiceReference1.Bid[] GetAllBidsByAuctionId(int auctionId);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAllBidsByAuctionId", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAllBidsByAuctionIdResponse")]
-        System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Bid[]> GetAllBidsByAuctionIdAsync(int auctionId);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetBidForAuctionWherePrice", ReplyAction="http://tempuri.org/IAuctionProjectService/GetBidForAuctionWherePriceResponse")]
-        AuctionProject.ServiceReference1.Bid GetBidForAuctionWherePrice(double price, AuctionProject.ServiceReference1.Auction auction);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetBidForAuctionWherePrice", ReplyAction="http://tempuri.org/IAuctionProjectService/GetBidForAuctionWherePriceResponse")]
-        System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Bid> GetBidForAuctionWherePriceAsync(double price, AuctionProject.ServiceReference1.Auction auction);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetHighestPriceForAuction", ReplyAction="http://tempuri.org/IAuctionProjectService/GetHighestPriceForAuctionResponse")]
-        double GetHighestPriceForAuction(AuctionProject.ServiceReference1.Auction auction);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetHighestPriceForAuction", ReplyAction="http://tempuri.org/IAuctionProjectService/GetHighestPriceForAuctionResponse")]
-        System.Threading.Tasks.Task<double> GetHighestPriceForAuctionAsync(AuctionProject.ServiceReference1.Auction auction);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetBidWithObjects", ReplyAction="http://tempuri.org/IAuctionProjectService/GetBidWithObjectsResponse")]
-        AuctionProject.ServiceReference1.Bid GetBidWithObjects(int Id);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetBidWithObjects", ReplyAction="http://tempuri.org/IAuctionProjectService/GetBidWithObjectsResponse")]
-        System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Bid> GetBidWithObjectsAsync(int Id);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetBidWithObjectsWithAuctionId", ReplyAction="http://tempuri.org/IAuctionProjectService/GetBidWithObjectsWithAuctionIdResponse")]
-        AuctionProject.ServiceReference1.Bid GetBidWithObjectsWithAuctionId(int auctionId);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetBidWithObjectsWithAuctionId", ReplyAction="http://tempuri.org/IAuctionProjectService/GetBidWithObjectsWithAuctionIdResponse")]
-        System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Bid> GetBidWithObjectsWithAuctionIdAsync(int auctionId);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetBidWithObjectsWithAccountId", ReplyAction="http://tempuri.org/IAuctionProjectService/GetBidWithObjectsWithAccountIdResponse")]
-        AuctionProject.ServiceReference1.Bid GetBidWithObjectsWithAccountId(int accountId);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetBidWithObjectsWithAccountId", ReplyAction="http://tempuri.org/IAuctionProjectService/GetBidWithObjectsWithAccountIdResponse")]
-        System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Bid> GetBidWithObjectsWithAccountIdAsync(int accountId);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetProductById", ReplyAction="http://tempuri.org/IAuctionProjectService/GetProductByIdResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetProductById", ReplyAction="http://tempuri.org/IProjectService/GetProductByIdResponse")]
         AuctionProject.ServiceReference1.Product GetProductById(int Id);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetProductById", ReplyAction="http://tempuri.org/IAuctionProjectService/GetProductByIdResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetProductById", ReplyAction="http://tempuri.org/IProjectService/GetProductByIdResponse")]
         System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Product> GetProductByIdAsync(int Id);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAllProductsInCategory", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAllProductsInCategoryResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetAllProductsInCategory", ReplyAction="http://tempuri.org/IProjectService/GetAllProductsInCategoryResponse")]
         AuctionProject.ServiceReference1.Product[] GetAllProductsInCategory(int CategoryId);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAllProductsInCategory", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAllProductsInCategoryResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetAllProductsInCategory", ReplyAction="http://tempuri.org/IProjectService/GetAllProductsInCategoryResponse")]
         System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Product[]> GetAllProductsInCategoryAsync(int CategoryId);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/AddProduct", ReplyAction="http://tempuri.org/IAuctionProjectService/AddProductResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/AddProduct", ReplyAction="http://tempuri.org/IProjectService/AddProductResponse")]
         int AddProduct(AuctionProject.ServiceReference1.Product Product);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/AddProduct", ReplyAction="http://tempuri.org/IAuctionProjectService/AddProductResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/AddProduct", ReplyAction="http://tempuri.org/IProjectService/AddProductResponse")]
         System.Threading.Tasks.Task<int> AddProductAsync(AuctionProject.ServiceReference1.Product Product);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAllProducts", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAllProductsResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetAllProducts", ReplyAction="http://tempuri.org/IProjectService/GetAllProductsResponse")]
         AuctionProject.ServiceReference1.Product[] GetAllProducts();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetAllProducts", ReplyAction="http://tempuri.org/IAuctionProjectService/GetAllProductsResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetAllProducts", ReplyAction="http://tempuri.org/IProjectService/GetAllProductsResponse")]
         System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Product[]> GetAllProductsAsync();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/RemoveProduct", ReplyAction="http://tempuri.org/IAuctionProjectService/RemoveProductResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/RemoveProduct", ReplyAction="http://tempuri.org/IProjectService/RemoveProductResponse")]
         void RemoveProduct(AuctionProject.ServiceReference1.Product Product);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/RemoveProduct", ReplyAction="http://tempuri.org/IAuctionProjectService/RemoveProductResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/RemoveProduct", ReplyAction="http://tempuri.org/IProjectService/RemoveProductResponse")]
         System.Threading.Tasks.Task RemoveProductAsync(AuctionProject.ServiceReference1.Product Product);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/RemoveProductById", ReplyAction="http://tempuri.org/IAuctionProjectService/RemoveProductByIdResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/RemoveProductById", ReplyAction="http://tempuri.org/IProjectService/RemoveProductByIdResponse")]
         int RemoveProductById(int Id);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/RemoveProductById", ReplyAction="http://tempuri.org/IAuctionProjectService/RemoveProductByIdResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/RemoveProductById", ReplyAction="http://tempuri.org/IProjectService/RemoveProductByIdResponse")]
         System.Threading.Tasks.Task<int> RemoveProductByIdAsync(int Id);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/UpdateProduct", ReplyAction="http://tempuri.org/IAuctionProjectService/UpdateProductResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/UpdateProduct", ReplyAction="http://tempuri.org/IProjectService/UpdateProductResponse")]
         int UpdateProduct(AuctionProject.ServiceReference1.Product Product);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/UpdateProduct", ReplyAction="http://tempuri.org/IAuctionProjectService/UpdateProductResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/UpdateProduct", ReplyAction="http://tempuri.org/IProjectService/UpdateProductResponse")]
         System.Threading.Tasks.Task<int> UpdateProductAsync(AuctionProject.ServiceReference1.Product Product);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/FindProductsWithPriceMoreThan", ReplyAction="http://tempuri.org/IAuctionProjectService/FindProductsWithPriceMoreThanResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/FindProductsWithPriceMoreThan", ReplyAction="http://tempuri.org/IProjectService/FindProductsWithPriceMoreThanResponse")]
         AuctionProject.ServiceReference1.Product[] FindProductsWithPriceMoreThan(double price);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/FindProductsWithPriceMoreThan", ReplyAction="http://tempuri.org/IAuctionProjectService/FindProductsWithPriceMoreThanResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/FindProductsWithPriceMoreThan", ReplyAction="http://tempuri.org/IProjectService/FindProductsWithPriceMoreThanResponse")]
         System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Product[]> FindProductsWithPriceMoreThanAsync(double price);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetProductsWithName", ReplyAction="http://tempuri.org/IAuctionProjectService/GetProductsWithNameResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetProductsWithName", ReplyAction="http://tempuri.org/IProjectService/GetProductsWithNameResponse")]
         AuctionProject.ServiceReference1.Product[] GetProductsWithName(string name);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetProductsWithName", ReplyAction="http://tempuri.org/IAuctionProjectService/GetProductsWithNameResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetProductsWithName", ReplyAction="http://tempuri.org/IProjectService/GetProductsWithNameResponse")]
         System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Product[]> GetProductsWithNameAsync(string name);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetProductsWithDescription", ReplyAction="http://tempuri.org/IAuctionProjectService/GetProductsWithDescriptionResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetProductsWithDescription", ReplyAction="http://tempuri.org/IProjectService/GetProductsWithDescriptionResponse")]
         AuctionProject.ServiceReference1.Product[] GetProductsWithDescription(string description);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetProductsWithDescription", ReplyAction="http://tempuri.org/IAuctionProjectService/GetProductsWithDescriptionResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetProductsWithDescription", ReplyAction="http://tempuri.org/IProjectService/GetProductsWithDescriptionResponse")]
         System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Product[]> GetProductsWithDescriptionAsync(string description);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/FindProductsWithPriceLessThan", ReplyAction="http://tempuri.org/IAuctionProjectService/FindProductsWithPriceLessThanResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/FindProductsWithPriceLessThan", ReplyAction="http://tempuri.org/IProjectService/FindProductsWithPriceLessThanResponse")]
         AuctionProject.ServiceReference1.Product[] FindProductsWithPriceLessThan(double price);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/FindProductsWithPriceLessThan", ReplyAction="http://tempuri.org/IAuctionProjectService/FindProductsWithPriceLessThanResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/FindProductsWithPriceLessThan", ReplyAction="http://tempuri.org/IProjectService/FindProductsWithPriceLessThanResponse")]
         System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Product[]> FindProductsWithPriceLessThanAsync(double price);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetProductWithObjects", ReplyAction="http://tempuri.org/IAuctionProjectService/GetProductWithObjectsResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetProductWithObjects", ReplyAction="http://tempuri.org/IProjectService/GetProductWithObjectsResponse")]
         AuctionProject.ServiceReference1.Product GetProductWithObjects(int Id);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuctionProjectService/GetProductWithObjects", ReplyAction="http://tempuri.org/IAuctionProjectService/GetProductWithObjectsResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProjectService/GetProductWithObjects", ReplyAction="http://tempuri.org/IProjectService/GetProductWithObjectsResponse")]
         System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Product> GetProductWithObjectsAsync(int Id);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IAuctionProjectServiceChannel : AuctionProject.ServiceReference1.IAuctionProjectService, System.ServiceModel.IClientChannel {
+    public interface IProjectServiceChannel : AuctionProject.ServiceReference1.IProjectService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class AuctionProjectServiceClient : System.ServiceModel.ClientBase<AuctionProject.ServiceReference1.IAuctionProjectService>, AuctionProject.ServiceReference1.IAuctionProjectService {
+    public partial class ProjectServiceClient : System.ServiceModel.ClientBase<AuctionProject.ServiceReference1.IProjectService>, AuctionProject.ServiceReference1.IProjectService {
         
-        public AuctionProjectServiceClient() {
+        public ProjectServiceClient() {
         }
         
-        public AuctionProjectServiceClient(string endpointConfigurationName) : 
+        public ProjectServiceClient(string endpointConfigurationName) : 
                 base(endpointConfigurationName) {
         }
         
-        public AuctionProjectServiceClient(string endpointConfigurationName, string remoteAddress) : 
+        public ProjectServiceClient(string endpointConfigurationName, string remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public AuctionProjectServiceClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public ProjectServiceClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public AuctionProjectServiceClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public ProjectServiceClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(binding, remoteAddress) {
         }
         
@@ -1268,142 +762,6 @@ namespace AuctionProject.ServiceReference1 {
             return base.Channel.GetAccountWithObjectsAsync(Id);
         }
         
-        public AuctionProject.ServiceReference1.Auction GetAuctionById(int Id) {
-            return base.Channel.GetAuctionById(Id);
-        }
-        
-        public System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Auction> GetAuctionByIdAsync(int Id) {
-            return base.Channel.GetAuctionByIdAsync(Id);
-        }
-        
-        public int AddAuction(AuctionProject.ServiceReference1.Auction Auction) {
-            return base.Channel.AddAuction(Auction);
-        }
-        
-        public System.Threading.Tasks.Task<int> AddAuctionAsync(AuctionProject.ServiceReference1.Auction Auction) {
-            return base.Channel.AddAuctionAsync(Auction);
-        }
-        
-        public AuctionProject.ServiceReference1.Auction[] GetAllAuctions() {
-            return base.Channel.GetAllAuctions();
-        }
-        
-        public System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Auction[]> GetAllAuctionsAsync() {
-            return base.Channel.GetAllAuctionsAsync();
-        }
-        
-        public AuctionProject.ServiceReference1.Auction[] GetAllAuctionsWithObjects() {
-            return base.Channel.GetAllAuctionsWithObjects();
-        }
-        
-        public System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Auction[]> GetAllAuctionsWithObjectsAsync() {
-            return base.Channel.GetAllAuctionsWithObjectsAsync();
-        }
-        
-        public AuctionProject.ServiceReference1.Auction[] GetAllActiveAuctions() {
-            return base.Channel.GetAllActiveAuctions();
-        }
-        
-        public System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Auction[]> GetAllActiveAuctionsAsync() {
-            return base.Channel.GetAllActiveAuctionsAsync();
-        }
-        
-        public AuctionProject.ServiceReference1.Auction[] GetAllAuctionsAsyncable() {
-            return base.Channel.GetAllAuctionsAsyncable();
-        }
-        
-        public System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Auction[]> GetAllAuctionsAsyncableAsync() {
-            return base.Channel.GetAllAuctionsAsyncableAsync();
-        }
-        
-        public void RemoveAuction(AuctionProject.ServiceReference1.Auction Auction) {
-            base.Channel.RemoveAuction(Auction);
-        }
-        
-        public System.Threading.Tasks.Task RemoveAuctionAsync(AuctionProject.ServiceReference1.Auction Auction) {
-            return base.Channel.RemoveAuctionAsync(Auction);
-        }
-        
-        public int RemoveAuctionById(int Id) {
-            return base.Channel.RemoveAuctionById(Id);
-        }
-        
-        public System.Threading.Tasks.Task<int> RemoveAuctionByIdAsync(int Id) {
-            return base.Channel.RemoveAuctionByIdAsync(Id);
-        }
-        
-        public bool CheckIfActive(int Id) {
-            return base.Channel.CheckIfActive(Id);
-        }
-        
-        public System.Threading.Tasks.Task<bool> CheckIfActiveAsync(int Id) {
-            return base.Channel.CheckIfActiveAsync(Id);
-        }
-        
-        public int UpdateAuction(AuctionProject.ServiceReference1.Auction Auction) {
-            return base.Channel.UpdateAuction(Auction);
-        }
-        
-        public System.Threading.Tasks.Task<int> UpdateAuctionAsync(AuctionProject.ServiceReference1.Auction Auction) {
-            return base.Channel.UpdateAuctionAsync(Auction);
-        }
-        
-        public AuctionProject.ServiceReference1.Auction GetAuctionWithProductId(int productId) {
-            return base.Channel.GetAuctionWithProductId(productId);
-        }
-        
-        public System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Auction> GetAuctionWithProductIdAsync(int productId) {
-            return base.Channel.GetAuctionWithProductIdAsync(productId);
-        }
-        
-        public AuctionProject.ServiceReference1.Auction[] getAllAucionsForProducts(AuctionProject.ServiceReference1.Product[] products) {
-            return base.Channel.getAllAucionsForProducts(products);
-        }
-        
-        public System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Auction[]> getAllAucionsForProductsAsync(AuctionProject.ServiceReference1.Product[] products) {
-            return base.Channel.getAllAucionsForProductsAsync(products);
-        }
-        
-        public AuctionProject.ServiceReference1.Auction[] GetAuctionsWhereSellerId(int sellerId) {
-            return base.Channel.GetAuctionsWhereSellerId(sellerId);
-        }
-        
-        public System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Auction[]> GetAuctionsWhereSellerIdAsync(int sellerId) {
-            return base.Channel.GetAuctionsWhereSellerIdAsync(sellerId);
-        }
-        
-        public AuctionProject.ServiceReference1.Auction[] GetAuctionsWhereWinnerId(int winnerId) {
-            return base.Channel.GetAuctionsWhereWinnerId(winnerId);
-        }
-        
-        public System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Auction[]> GetAuctionsWhereWinnerIdAsync(int winnerId) {
-            return base.Channel.GetAuctionsWhereWinnerIdAsync(winnerId);
-        }
-        
-        public AuctionProject.ServiceReference1.Auction[] GetAuctionsWithLessTimeLeft() {
-            return base.Channel.GetAuctionsWithLessTimeLeft();
-        }
-        
-        public System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Auction[]> GetAuctionsWithLessTimeLeftAsync() {
-            return base.Channel.GetAuctionsWithLessTimeLeftAsync();
-        }
-        
-        public AuctionProject.ServiceReference1.Auction[] GetMostRecentAuctions() {
-            return base.Channel.GetMostRecentAuctions();
-        }
-        
-        public System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Auction[]> GetMostRecentAuctionsAsync() {
-            return base.Channel.GetMostRecentAuctionsAsync();
-        }
-        
-        public AuctionProject.ServiceReference1.Auction GetAuctionByIdWithObjects(int Id) {
-            return base.Channel.GetAuctionByIdWithObjects(Id);
-        }
-        
-        public System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Auction> GetAuctionByIdWithObjectsAsync(int Id) {
-            return base.Channel.GetAuctionByIdWithObjectsAsync(Id);
-        }
-        
         public AuctionProject.ServiceReference1.Category GetCategorytById(int Id) {
             return base.Channel.GetCategorytById(Id);
         }
@@ -1474,126 +832,6 @@ namespace AuctionProject.ServiceReference1 {
         
         public System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Category> GetCategoryWithObjectsAsync(int Id) {
             return base.Channel.GetCategoryWithObjectsAsync(Id);
-        }
-        
-        public AuctionProject.ServiceReference1.Bid GetBidById(int Id) {
-            return base.Channel.GetBidById(Id);
-        }
-        
-        public System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Bid> GetBidByIdAsync(int Id) {
-            return base.Channel.GetBidByIdAsync(Id);
-        }
-        
-        public AuctionProject.ServiceReference1.Bid CreateBid(double price, AuctionProject.ServiceReference1.Account bidOwner, int auctionId) {
-            return base.Channel.CreateBid(price, bidOwner, auctionId);
-        }
-        
-        public System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Bid> CreateBidAsync(double price, AuctionProject.ServiceReference1.Account bidOwner, int auctionId) {
-            return base.Channel.CreateBidAsync(price, bidOwner, auctionId);
-        }
-        
-        public int AddBid(AuctionProject.ServiceReference1.Bid Bid) {
-            return base.Channel.AddBid(Bid);
-        }
-        
-        public System.Threading.Tasks.Task<int> AddBidAsync(AuctionProject.ServiceReference1.Bid Bid) {
-            return base.Channel.AddBidAsync(Bid);
-        }
-        
-        public AuctionProject.ServiceReference1.Bid[] GetAllBids() {
-            return base.Channel.GetAllBids();
-        }
-        
-        public System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Bid[]> GetAllBidsAsync() {
-            return base.Channel.GetAllBidsAsync();
-        }
-        
-        public AuctionProject.ServiceReference1.Auction[] GetAllAuctionsForBids(AuctionProject.ServiceReference1.Bid[] bids) {
-            return base.Channel.GetAllAuctionsForBids(bids);
-        }
-        
-        public System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Auction[]> GetAllAuctionsForBidsAsync(AuctionProject.ServiceReference1.Bid[] bids) {
-            return base.Channel.GetAllAuctionsForBidsAsync(bids);
-        }
-        
-        public void RemoveBid(AuctionProject.ServiceReference1.Bid Bid) {
-            base.Channel.RemoveBid(Bid);
-        }
-        
-        public System.Threading.Tasks.Task RemoveBidAsync(AuctionProject.ServiceReference1.Bid Bid) {
-            return base.Channel.RemoveBidAsync(Bid);
-        }
-        
-        public int RemoveBidById(int Id) {
-            return base.Channel.RemoveBidById(Id);
-        }
-        
-        public System.Threading.Tasks.Task<int> RemoveBidByIdAsync(int Id) {
-            return base.Channel.RemoveBidByIdAsync(Id);
-        }
-        
-        public int UpdateBid(AuctionProject.ServiceReference1.Bid Bid) {
-            return base.Channel.UpdateBid(Bid);
-        }
-        
-        public System.Threading.Tasks.Task<int> UpdateBidAsync(AuctionProject.ServiceReference1.Bid Bid) {
-            return base.Channel.UpdateBidAsync(Bid);
-        }
-        
-        public AuctionProject.ServiceReference1.Bid[] GetAllBidsByAccountId(int accountId) {
-            return base.Channel.GetAllBidsByAccountId(accountId);
-        }
-        
-        public System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Bid[]> GetAllBidsByAccountIdAsync(int accountId) {
-            return base.Channel.GetAllBidsByAccountIdAsync(accountId);
-        }
-        
-        public AuctionProject.ServiceReference1.Bid[] GetAllBidsByAuctionId(int auctionId) {
-            return base.Channel.GetAllBidsByAuctionId(auctionId);
-        }
-        
-        public System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Bid[]> GetAllBidsByAuctionIdAsync(int auctionId) {
-            return base.Channel.GetAllBidsByAuctionIdAsync(auctionId);
-        }
-        
-        public AuctionProject.ServiceReference1.Bid GetBidForAuctionWherePrice(double price, AuctionProject.ServiceReference1.Auction auction) {
-            return base.Channel.GetBidForAuctionWherePrice(price, auction);
-        }
-        
-        public System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Bid> GetBidForAuctionWherePriceAsync(double price, AuctionProject.ServiceReference1.Auction auction) {
-            return base.Channel.GetBidForAuctionWherePriceAsync(price, auction);
-        }
-        
-        public double GetHighestPriceForAuction(AuctionProject.ServiceReference1.Auction auction) {
-            return base.Channel.GetHighestPriceForAuction(auction);
-        }
-        
-        public System.Threading.Tasks.Task<double> GetHighestPriceForAuctionAsync(AuctionProject.ServiceReference1.Auction auction) {
-            return base.Channel.GetHighestPriceForAuctionAsync(auction);
-        }
-        
-        public AuctionProject.ServiceReference1.Bid GetBidWithObjects(int Id) {
-            return base.Channel.GetBidWithObjects(Id);
-        }
-        
-        public System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Bid> GetBidWithObjectsAsync(int Id) {
-            return base.Channel.GetBidWithObjectsAsync(Id);
-        }
-        
-        public AuctionProject.ServiceReference1.Bid GetBidWithObjectsWithAuctionId(int auctionId) {
-            return base.Channel.GetBidWithObjectsWithAuctionId(auctionId);
-        }
-        
-        public System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Bid> GetBidWithObjectsWithAuctionIdAsync(int auctionId) {
-            return base.Channel.GetBidWithObjectsWithAuctionIdAsync(auctionId);
-        }
-        
-        public AuctionProject.ServiceReference1.Bid GetBidWithObjectsWithAccountId(int accountId) {
-            return base.Channel.GetBidWithObjectsWithAccountId(accountId);
-        }
-        
-        public System.Threading.Tasks.Task<AuctionProject.ServiceReference1.Bid> GetBidWithObjectsWithAccountIdAsync(int accountId) {
-            return base.Channel.GetBidWithObjectsWithAccountIdAsync(accountId);
         }
         
         public AuctionProject.ServiceReference1.Product GetProductById(int Id) {

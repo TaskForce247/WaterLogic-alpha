@@ -12,3 +12,19 @@ C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\Database\obj
 C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\Database\obj\Debug\Database.csproj.GenerateResource.Cache
 C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\Database\obj\Debug\Database.dll
 C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\Database\obj\Debug\Database.pdb
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\Database\bin\Debug\Database.dll.config
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\Database\bin\Debug\Database.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\Database\bin\Debug\Database.pdb
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\Database\bin\Debug\AuctionProject.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\Database\bin\Debug\EntityFramework.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\Database\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\Database\bin\Debug\AuctionProject.pdb
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\Database\bin\Debug\EntityFramework.xml
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\Database\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\Database\obj\Debug\Database.csprojAssemblyReference.cache
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\Database\obj\Debug\Database.Migrations.Enitial.resources
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\Database\obj\Debug\Database.csproj.GenerateResource.cache
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\Database\obj\Debug\Database.csproj.CopyComplete
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\Database\obj\Debug\Database.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\Database\obj\Debug\Database.pdb

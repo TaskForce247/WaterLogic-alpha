@@ -1,0 +1,6 @@
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\b\SemesterProject\AuctionProject\UnitTestProject1\bin\Debug\UnitTestProject1.dll.config
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\b\SemesterProject\AuctionProject\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\UnitTestProject1\Debug\UnitTestProject1.csprojAssemblyReference.cache
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\UnitTestProject1\Debug\UnitTestProject1.csproj.CoreCompileInputs.cache
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\UnitTestProject1\Debug\UnitTestProject1.csproj.CopyComplete
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\UnitTestProject1\Debug\UnitTestProject1.dll

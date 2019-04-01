@@ -14,7 +14,7 @@ namespace AuctionProject
         [STAThread]
         static void Main()
         {
-            ServiceReference1.IAuctionProjectService serv = new ServiceReference1.AuctionProjectServiceClient("binary");
+            ServiceReference1.IProjectService serv = new ServiceReference1.ProjectServiceClient("binary");
 
 
 

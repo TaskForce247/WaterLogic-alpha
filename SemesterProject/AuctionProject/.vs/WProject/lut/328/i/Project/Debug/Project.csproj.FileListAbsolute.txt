@@ -1,0 +1,12 @@
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\b\AuctionProjectWinForm\AuctionProject\bin\Debug\AuctionProject.exe.config
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\b\AuctionProjectWinForm\AuctionProject\bin\Debug\AuctionProject.exe
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\Project\Debug\Project.csprojAssemblyReference.cache
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\Project\Debug\AuctionProject.AccountForm.resources
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\Project\Debug\AuctionProject.Form1.resources
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\Project\Debug\AuctionProject.LoginForm.resources
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\Project\Debug\AuctionProject.Properties.Resources.resources
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\Project\Debug\AuctionProject.RegistrationForm.resources
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\Project\Debug\Project.csproj.GenerateResource.cache
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\Project\Debug\Project.csproj.CoreCompileInputs.cache
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\Project\Debug\Project.csproj.CopyComplete
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\Project\Debug\AuctionProject.exe

@@ -1,4 +1,4 @@
-﻿using AuctionWebApplication.AuctionService;
+﻿using WebApplication.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 
-namespace AuctionWebApplication.Controllers
+namespace WebApplication.Controllers
 {
     public class AccountController : Controller
     {
-        IAuctionProjectService AccService = new AuctionProjectServiceClient("secure");
+        IProjectService AccService = new ProjectServiceClient("secure");
 
 
         #region GET METHODS
@@ -73,31 +73,10 @@ namespace AuctionWebApplication.Controllers
         public ActionResult LogOut()
         {
             Session["LoggedUser"] = null;
-            return RedirectToAction("Index", "Auction");
+            return RedirectToAction("Index", "Product");
         }
 
-        public ActionResult AllAuctionsWhereSeller(int accountId)
-        {
-            var auctions = AccService.GetAuctionsWhereSellerId(accountId);
-            return View(auctions);
-        }
-
-        public ActionResult AllAuctionsWon(int accountId)
-        {
-            var auctions = AccService.GetAuctionsWhereWinnerId(accountId);
-            return View(auctions);
-        }
-
-        public ActionResult AllAuctionsForAcc(int accountId)
-        {
-            var bid = AccService.GetAllBidsByAccountId(accountId);
-            var auctions = AccService.GetAllAuctionsForBids(bid);
-            if (auctions == null)
-            {
-                return HttpNotFound();
-            }
-            return View(auctions);
-        }
+       
 
         public ActionResult ChangePassword()
         {
@@ -170,7 +149,7 @@ namespace AuctionWebApplication.Controllers
             if (ModelState.IsValid)
             {
                 account = AccService.GetAccountByEmail(account.Email);
-                return RedirectToAction("Edit", "Auction");
+                return RedirectToAction("Index", "Product");
             }
             return View(account);
         }
@@ -244,7 +223,7 @@ namespace AuctionWebApplication.Controllers
                 if (Verify(acc.Salt,acc.Password, account.Password))
                 {
                     Session["LoggedUser"] = acc;
-                    return RedirectToAction("Index", "Auction");
+                    return RedirectToAction("Index", "Product");
                 }else
                 TempData["ErrorMessage"] = "Wrong password";
             }

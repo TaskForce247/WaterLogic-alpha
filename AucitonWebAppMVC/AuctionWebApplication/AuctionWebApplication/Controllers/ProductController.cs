@@ -1,4 +1,4 @@
-﻿using AuctionWebApplication.AuctionService;
+﻿using WebApplication.Service;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -8,11 +8,11 @@ using System.Web.Helpers;
 using System.Web.Mvc;
 using System.Web.UI.WebControls;
 
-namespace AuctionWebApplication.Controllers
+namespace WebApplication.Controllers
 {
     public class ProductController : Controller
     {
-        IAuctionProjectService AccService = new AuctionProjectServiceClient("secure");
+        IProjectService AccService = new ProjectServiceClient("secure");
 
         #region GET METHODS
         // GET: Product
@@ -25,7 +25,7 @@ namespace AuctionWebApplication.Controllers
         {
             var products = AccService.GetAllProductsInCategory(CategoryId);
 
-            var auctions = AccService.getAllAucionsForProducts(products);
+            
 
             return RedirectToAction("Index", "Auction", new { Search = " ", Products = products });
         }
@@ -36,48 +36,110 @@ namespace AuctionWebApplication.Controllers
             return View();
         }
 
-        public ActionResult Details(int id)
+        public ActionResult Detailss(int id)
         {
             var pr = AccService.GetProductById(id);
-            return RedirectToAction("DetailsWithProduct", "Auction", new { id = pr.Id });
+            return RedirectToAction("Details", new { id = pr.Id });
         }
-
+        public ActionResult Delete(int id)
+        {
+            var acc = AccService.GetProductById(id);
+            if (acc != null)
+                return View(acc);
+            else
+                return View();
+        }
         #endregion
 
         #region POST METHODS
 
+       
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(Product pr)
+        public ActionResult Create([Bind(Include = "Name,Description,Price,Stock,CategoryId")] Product product)
         {
-            if (Session["Auction"] != null)
-            {      
-                var auction = (Auction)Session["Auction"];
-                auction.Product = pr;
-                return RedirectToAction("Show");
-            }
-            throw new Exception();
-        }
+            
+                   
+                    AccService.AddProduct(product);
+            return RedirectToAction("Index", "Product");
 
+
+
+
+
+        }
         public  ActionResult Show()
         {
             Product pr = null;
             if (Session["Auction"] != null)
             {
-                var auction = (Auction)Session["Auction"];
-                pr = auction.Product;
+                
+               
                 if(pr.Picture != null)
                 {
-                    auction.Product.Picture = pr.Picture;
-                    AccService.AddAuction(auction);
+                    
+                   
                     return RedirectToAction("Index", "Auction");
                 }
             }
                 return View(pr);
         }
+        public ActionResult Details(int Id)
+        {
+            var auc = AccService.GetProductById(Id);
+            if (auc != null)
+            {
+                
+
+                return View(auc);
+            }
+            else
+            {
+                return View();
+            }
+        }
+
+        public ActionResult Edit(int Id)
+        {
+            var acc = AccService.GetProductById(Id);
+            if (acc != null)
+                return View(acc);
+            else
+                return View();
+
+        }
+        [HttpPost]
+        // POST: Products/Edit/5
+        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
+        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
+
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit([Bind(Include = "Id,Name,Description,Price,Picture,CategoryId,Stock,RowVersion")] Product product)
+        {  
+            if (ModelState.IsValid)
+            {
+               
+                AccService.UpdateProduct(product);
+                return RedirectToAction("Index", "Product");
+            }
+            else
+            {
+                ModelState.AddModelError(string.Empty, "There is something wrong! Try again!.");
+            }
+            return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete()
+        {
+            int id = int.Parse(Url.RequestContext.RouteData.Values["id"].ToString());
+            AccService.RemoveProductById(id);
+            return RedirectToAction("Index", "Product");
+        }
 
 
-        #endregion 
+        #endregion
 
     }
+
 }

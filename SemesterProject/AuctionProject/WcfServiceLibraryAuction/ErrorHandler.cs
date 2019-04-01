@@ -8,7 +8,7 @@ using System.ServiceModel.Dispatcher;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WcfServiceLibraryAuction
+namespace WcfServiceLibrary
 {
     public class ErrorHandler : IErrorHandler
     {

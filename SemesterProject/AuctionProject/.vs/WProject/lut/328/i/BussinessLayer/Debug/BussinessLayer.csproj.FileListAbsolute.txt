@@ -1,0 +1,6 @@
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\b\SemesterProject\AuctionProject\BussinessLayer\bin\Debug\BussinessLayer.dll.config
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\b\SemesterProject\AuctionProject\BussinessLayer\bin\Debug\BussinessLayer.dll
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\BussinessLayer\Debug\BussinessLayer.csprojAssemblyReference.cache
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\BussinessLayer\Debug\BussinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\BussinessLayer\Debug\BussinessLayer.csproj.CopyComplete
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\BussinessLayer\Debug\BussinessLayer.dll

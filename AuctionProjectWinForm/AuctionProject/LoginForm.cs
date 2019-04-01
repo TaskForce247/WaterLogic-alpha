@@ -17,7 +17,7 @@ namespace AuctionProject
     {
         public string loginstatus { get; set; }
 
-        ServiceReference1.IAuctionProjectService serv = new ServiceReference1.AuctionProjectServiceClient("binary");
+        ServiceReference1.IProjectService serv = new ServiceReference1.ProjectServiceClient("binary");
 
         Form1 form1 = new Form1();
         public LoginForm()
@@ -28,8 +28,8 @@ namespace AuctionProject
             Size size = new Size(220, 42);
             PasswordTextField.Size = size;
             EmailTextField.Size = size;
-            EmailTextField.Text = "diliev1996@gmail.com";
-            PasswordTextField.Text = "test1";
+            EmailTextField.Text = "a";
+            PasswordTextField.Text = "a";
         }
 
         public void HideThisFormAndShowNewOne(Form form)

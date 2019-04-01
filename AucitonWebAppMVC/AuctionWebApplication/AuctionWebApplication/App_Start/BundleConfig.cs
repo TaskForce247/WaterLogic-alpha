@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace AuctionWebApplication
+namespace WebApplication
 {
     public class BundleConfig
     {

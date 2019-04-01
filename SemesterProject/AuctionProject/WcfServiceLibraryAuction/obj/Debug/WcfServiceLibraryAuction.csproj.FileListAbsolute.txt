@@ -14,3 +14,23 @@ C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLi
 C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\obj\Debug\WcfServiceLibraryAuction.csprojResolveAssemblyReference.cache
 C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\obj\Debug\WcfServiceLibraryAuction.exe
 C:\Users\viva\Desktop\Project - Copy\SemesterProject\AuctionProject\WcfServiceLibraryAuction\obj\Debug\WcfServiceLibraryAuction.pdb
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\WcfServiceLibraryAuction.exe.config
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\WcfServiceLibraryAuction.exe
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\WcfServiceLibraryAuction.pdb
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\AuctionProject.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\BussinessLayer.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\EntityFramework.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\Database.dll
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\AuctionProject.pdb
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\BussinessLayer.pdb
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\BussinessLayer.dll.config
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\EntityFramework.xml
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\Database.pdb
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\WcfServiceLibraryAuction\bin\Debug\Database.dll.config
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\WcfServiceLibraryAuction\obj\Debug\WcfServiceLibraryAuction.csprojAssemblyReference.cache
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\WcfServiceLibraryAuction\obj\Debug\WcfServiceLibraryAuction.csproj.CoreCompileInputs.cache
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\WcfServiceLibraryAuction\obj\Debug\WcfServiceLibraryAuction.csproj.CopyComplete
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\WcfServiceLibraryAuction\obj\Debug\WcfServiceLibraryAuction.exe
+C:\Users\ipeth\Source\Repos\AalborgAuction2\SemesterProject\AuctionProject\WcfServiceLibraryAuction\obj\Debug\WcfServiceLibraryAuction.pdb

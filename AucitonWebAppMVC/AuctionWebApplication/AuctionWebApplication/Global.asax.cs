@@ -1,4 +1,4 @@
-﻿using AuctionWebApplication.AuctionService;
+﻿using WebApplication.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 
-namespace AuctionWebApplication
+namespace WebApplication
 {
     public class MvcApplication : System.Web.HttpApplication
     {
@@ -54,7 +54,7 @@ namespace AuctionWebApplication
             } else  {
                 Response.Write("You are either not logged in, have no restrictions for viewing the page, or the page does not exist");
             }
-            IAuctionProjectService AccService = new AuctionProjectServiceClient("secure");
+            IProjectService AccService = new ProjectServiceClient("secure");
             AccService.LogError(exc);
 
             // Clear the error from the server

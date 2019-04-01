@@ -16,14 +16,14 @@ namespace AuctionProject
 {
     public partial class Form1 : Form
     {
-        ServiceReference1.IAuctionProjectService service = new ServiceReference1.AuctionProjectServiceClient("binary");
+        ServiceReference1.IProjectService service = new ServiceReference1.ProjectServiceClient("binary");
         public Account Account { get; set; }
         string currentValue = "";
 
         public Form1()
         {
             InitializeComponent();
-            dataGridView2.DataSource = service.GetAllAuctionsWithObjects();
+          
         }
 
         public void DisableColumns(DataGridView dataView)
@@ -90,10 +90,7 @@ namespace AuctionProject
             dgLB2.HeaderText = "Last Bid by";
 
 
-            dataGridView2.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridView2.RowTemplate.Height = 120;
-            dataGridView2.AllowUserToAddRows = false;
-
+           
             DataGridViewTextBoxColumn dgvDS3 = new DataGridViewTextBoxColumn();
             dgvDS3.HeaderText = "E-mail";
 
@@ -250,7 +247,7 @@ namespace AuctionProject
                 pictureBox4.Image.Save(ms, pictureBox4.Image.RawFormat);
                 byte[] img = ms.ToArray();
                 dataGridView4.Rows.Add(img, itemnametext4.Text, StartingPriceTextbox.Text, RichtextboxDescr.Text, CategoryTextBox.Text);
-                dataGridView2.Rows.Add(img, itemnametext4.Text, StartingPriceTextbox.Text, RichtextboxDescr.Text, CategoryTextBox.Text);
+               
 
             }
             catch (Exception ex)
@@ -275,20 +272,7 @@ namespace AuctionProject
 
         private void SortButton_Click(object sender, EventArgs e)
         {
-            List<ServiceReference1.Auction> auction = new List<ServiceReference1.Auction>();
-            auction.Add(service.GetAuctionById(int.Parse(textBox1.Text)));
-            try
-            {
-
-                dataGridView2.DataSource = auction;
-                textBox1.Text = "";
-            }
-
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-                textBox1.Text = "";
-            }
+          
             // dataGridView2.DataSource = service.GetAuctionById(int.Parse(textBox1.Text));
             //if (status == "not logged in")
             //{
@@ -376,7 +360,7 @@ namespace AuctionProject
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            dataGridView2.DataSource = service.GetAllAuctions();
+           
         }
 
         private void SearchB_Click_1(object sender, EventArgs e)
@@ -443,19 +427,7 @@ namespace AuctionProject
             }
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                service.RemoveAuctionById(int.Parse(textBox1.Text));
-                textBox1.Text = "";
-            }
-            catch (Exception)
-            {
-                MessageBox.Show("Invalid ID");
-                textBox1.Text = "";
-            }
-        }
+      
 
         private void button6_Click_1(object sender, EventArgs e)
         {
@@ -488,7 +460,7 @@ namespace AuctionProject
             switch (i)
             {
                 case 0:
-                    dataGridView6.DataSource = service.GetAllAuctions();
+                   
                     DisableColumns(dataGridView6);
                     break;
                 case 1:
@@ -557,15 +529,7 @@ namespace AuctionProject
             }
         }
 
-        private void dataGridView2_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
-        {
-            int rowindex = dataGridView2.CurrentCell.RowIndex;
-            int columnindex = dataGridView2.CurrentCell.ColumnIndex;
-
-           string select =  dataGridView2.Rows[rowindex].Cells[columnindex].Value.ToString();
-            //string select = dataGridView2.SelectedRows[0].Selected.ToString();
-            textBox1.Text = select;
-        }
+      
 
         private void dataGridView5_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -574,6 +538,11 @@ namespace AuctionProject
 
             string select = dataGridView5.Rows[rowindex].Cells[columnindex].Value.ToString();
             textBox3.Text = select;
+        }
+
+        private void LinkLabelAboutus_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
         }
     }
 }

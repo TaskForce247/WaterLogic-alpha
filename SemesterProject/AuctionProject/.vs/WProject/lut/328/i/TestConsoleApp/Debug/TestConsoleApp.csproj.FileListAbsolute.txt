@@ -1,0 +1,6 @@
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\b\SemesterProject\AuctionProject\TestConsoleApp\bin\Debug\TestConsoleApp.exe.config
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\b\SemesterProject\AuctionProject\TestConsoleApp\bin\Debug\TestConsoleApp.exe
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\TestConsoleApp\Debug\TestConsoleApp.csprojAssemblyReference.cache
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\TestConsoleApp\Debug\TestConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\TestConsoleApp\Debug\TestConsoleApp.csproj.CopyComplete
+C:\Users\ipeth\source\repos\AalborgAuction2\SemesterProject\AuctionProject\.vs\WProject\lut\328\i\TestConsoleApp\Debug\TestConsoleApp.exe

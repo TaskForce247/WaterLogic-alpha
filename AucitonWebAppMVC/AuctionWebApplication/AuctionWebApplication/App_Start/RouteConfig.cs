@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace AuctionWebApplication
+namespace WebApplication
 {
     public class RouteConfig
     {
@@ -18,7 +18,7 @@ namespace AuctionWebApplication
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Auction", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Product", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

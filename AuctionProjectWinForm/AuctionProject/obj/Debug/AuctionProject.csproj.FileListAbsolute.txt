@@ -22,3 +22,15 @@ C:\Users\viva\Desktop\Project - Copy\AuctionProjectWinForm\AuctionProject\obj\De
 C:\Users\viva\Desktop\Project - Copy\AuctionProjectWinForm\AuctionProject\obj\Debug\AuctionProject.exe
 C:\Users\viva\Desktop\Project - Copy\AuctionProjectWinForm\AuctionProject\obj\Debug\AuctionProject.pdb
 C:\Users\viva\Desktop\Project - Copy\AuctionProjectWinForm\AuctionProject\obj\Debug\AuctionProject.csprojResolveAssemblyReference.cache
+C:\Users\ipeth\source\repos\AalborgAuction2\AuctionProjectWinForm\AuctionProject\bin\Debug\AuctionProject.exe.config
+C:\Users\ipeth\source\repos\AalborgAuction2\AuctionProjectWinForm\AuctionProject\bin\Debug\AuctionProject.exe
+C:\Users\ipeth\source\repos\AalborgAuction2\AuctionProjectWinForm\AuctionProject\bin\Debug\AuctionProject.pdb
+C:\Users\ipeth\source\repos\AalborgAuction2\AuctionProjectWinForm\AuctionProject\obj\Debug\AuctionProject.AccountForm.resources
+C:\Users\ipeth\source\repos\AalborgAuction2\AuctionProjectWinForm\AuctionProject\obj\Debug\AuctionProject.Form1.resources
+C:\Users\ipeth\source\repos\AalborgAuction2\AuctionProjectWinForm\AuctionProject\obj\Debug\AuctionProject.LoginForm.resources
+C:\Users\ipeth\source\repos\AalborgAuction2\AuctionProjectWinForm\AuctionProject\obj\Debug\AuctionProject.Properties.Resources.resources
+C:\Users\ipeth\source\repos\AalborgAuction2\AuctionProjectWinForm\AuctionProject\obj\Debug\AuctionProject.RegistrationForm.resources
+C:\Users\ipeth\source\repos\AalborgAuction2\AuctionProjectWinForm\AuctionProject\obj\Debug\AuctionProject.csproj.GenerateResource.cache
+C:\Users\ipeth\source\repos\AalborgAuction2\AuctionProjectWinForm\AuctionProject\obj\Debug\AuctionProject.csproj.CoreCompileInputs.cache
+C:\Users\ipeth\source\repos\AalborgAuction2\AuctionProjectWinForm\AuctionProject\obj\Debug\AuctionProject.exe
+C:\Users\ipeth\source\repos\AalborgAuction2\AuctionProjectWinForm\AuctionProject\obj\Debug\AuctionProject.pdb

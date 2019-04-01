@@ -14,13 +14,13 @@ namespace TestConsoleApp
         static void Main(string[] args)
         {
             ProductControler controller = new ProductControler();
-            BidController BidContrl = new BidController();
-            AuctionController Contrl = new AuctionController();
+          
+           
             //var products = controller.GetProductsWithName("kola");
             //var auctions = Contrl.getAllAucionsForProducts(products.ToArray());
             var products = controller.GetProductsWithName("bike").ToArray();
 
-            var auctions = Contrl.getAllAucionsForProducts(products.ToArray());
+           
 
         }
     }

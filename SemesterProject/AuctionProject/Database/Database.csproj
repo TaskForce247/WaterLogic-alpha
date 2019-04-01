@@ -57,8 +57,6 @@
   <ItemGroup>
     <Compile Include="ARepository.cs" />
     <Compile Include="AccountRepository.cs" />
-    <Compile Include="AuctionRepository.cs" />
-    <Compile Include="BidRepository.cs" />
     <Compile Include="CategoryRepository.cs" />
     <Compile Include="Dbcontext.cs" />
     <Compile Include="Migrations\201611171150439_Enitial.cs" />
